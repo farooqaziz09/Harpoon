@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html class="h-100">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Whale Hero</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css"> -->
+  <!-- owl css -->
+  <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl/owl.theme.green.min.css">
+  <link rel="stylesheet" href="css/owl/lightbox.min.css">
+  <!-- owl css -->
+</head>
+
+<body class="h-100">
+  <div class="body_wrap h-100">
+  <div class="dash-wrap row h-100">
+    <div class="sidebar-wrap h-100">
+      <div class="cont-sidebar">
+        <a href="#" class="logo-wrap"><img src="images/logos-text.svg" alt=""></a>
+        <ul>
+          <li><a href="#"><img src="images/home-icon.svg" alt=""> <span>Home</span></a></li>
+          <ul class="submenu">
+          <li class="active"><a href=""><img src="images/speaker-icon.svg" alt=""> <span></span>Campaigns</span></a></li>
+            <ul class="submenu-inner">
+          <li class="active"><a href=""><img src="images/all-icon.svg" alt=""> <span>All</span></a></li>
+          <li><a href=""><img src="images/form-icon.svg" alt=""> <span>Forms & Popups</span></a></li>
+          <li><a href=""><img src="images/landing-icon.svg" alt=""> <span>Landing pages</span></a></li>
+          <li><a href=""><img src="images/auto-icon.svg" alt=""> <span>Autoresponder</span></a></li>
+          <li><a href=""><img src="images/broad-icon.svg" alt=""> <span>Broadcasts</span></a></li>
+          <li><a href=""><img src="images/drip-icon.svg" alt=""> <span>Drip sequences</span></a></li>
+          <li><a href=""><img src="images/automations-icon.svg" alt=""> <span>Automations</span></a></li>
+        </ul>
+        </ul>
+      
+          <li><a href=""><img src="images/contacts-icon.svg" alt=""> <span>Contacts</span></a></li>
+          <li><a href=""><img src="images/analytics-icon.svg" alt=""> <span>Analytics</span></a></li>
+          <li><a href=""><img src="images/settings-icon.svg" alt=""> <span>Site Settings</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="dashboard-cont-wrap">
+      <header>
+        <div class="row">
+          <div class="col-lg-12 text-end">
+            <ul>
+              <li><a href="#"><img src="images/bell.svg" alt="bell"></a></li>
+              <li><a href="#"><img src="images/profile.svg" alt="profile"></a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="dash-cont-table">
+        <div class="row">
+          <div class="col-6">
+            <h1 class="mb-0">Campaigns</h1>
+          </div>
+          <div class="col-6 text-end">
+            <a href="#" class="btn btn-prim w-auto d-inline-block px-5 py-3">+ Create Campaign</a>
+          </div>
+        </div>
+        <div class="campaigns-tables">
+        <div class="campaigns-tables-wrap">
+          <div class="row">
+            <div class="col-lg-8">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all" aria-selected="true">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="live-tab" data-bs-toggle="tab" data-bs-target="#live" type="button" role="tab" aria-controls="live" aria-selected="false">Live</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="draft-tab" data-bs-toggle="tab" data-bs-target="#draft" type="button" role="tab" aria-controls="draft" aria-selected="false">Draft</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="completed-tab" data-bs-toggle="tab" data-bs-target="#completed" type="button" role="tab" aria-controls="completed" aria-selected="false">Completed</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="archived-tab" data-bs-toggle="tab" data-bs-target="#archived" type="button" role="tab" aria-controls="archived" aria-selected="false">Archived</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="expenses-tab" data-bs-toggle="tab" data-bs-target="#expenses" type="button" role="tab" aria-controls="expenses" aria-selected="false">Expenses</button>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 text-end">
+              <div class="form-wrap">
+                <div class="search-wrap d-inline-block">
+                <input type="search" placeholder="Search">
+              </div>
+              <div class="sort-wrap d-inline-block">
+                <select name="sort" id="sort">
+                  <option value="">Ascending</option>
+                  <option value="">Decending</option>
+                </select>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+              <div class="cont-tabs-inner">
+                <div class="cont-tabs-inner-border">
+                <div class="head-wrap-box">
+                  <h2>Date and time</h2>
+                </div>
+                <div class="table-responsive">
+                  <table class="table align-middle">
+                    <thead>
+                      <tr>
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="img-wrap-list">
+                            <img src="images/profile-img.png" alt="profile img">
+                          </div>
+                        </td>
+                        <td>
+                          <h3>Campaign name</h3>
+                          <p>Updated time</p>
+                        </td>
+                        <td>
+                          <div class="type-drop dropdown-table">
+                            <h4>Campaign type</h4>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="type-drop dropdown-table">
+                            <h4>Status</h4>
+                          </div>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Sent</p>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Opened</p>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Clicked</p>
+                        </td>
+                        <td>
+                          <h3>0%</h3>
+                          <p>Conversion rate</p>
+                        </td>
+                        <td><span class="dots"></span></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="img-wrap-list">
+                            <img src="images/profile-img.png" alt="profile img">
+                          </div>
+                        </td>
+                        <td>
+                          <h3>Campaign name</h3>
+                          <p>Updated time</p>
+                        </td>
+                        <td>
+                          <div class="type-drop dropdown-table">
+                            <h4>Campaign type</h4>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="type-drop dropdown-table">
+                            <h4>Status</h4>
+                          </div>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Sent</p>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Opened</p>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Clicked</p>
+                        </td>
+                        <td>
+                          <h3>0%</h3>
+                          <p>Conversion rate</p>
+                        </td>
+                        <td><span class="dots"></span></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="img-wrap-list">
+                            <img src="images/profile-img.png" alt="profile img">
+                          </div>
+                        </td>
+                        <td>
+                          <h3>Campaign name</h3>
+                          <p>Updated time</p>
+                        </td>
+                        <td>
+                          <div class="type-drop dropdown-table">
+                            <h4>Campaign type</h4>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="type-drop dropdown-table">
+                            <h4>Status</h4>
+                          </div>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Sent</p>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Opened</p>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Clicked</p>
+                        </td>
+                        <td>
+                          <h3>0%</h3>
+                          <p>Conversion rate</p>
+                        </td>
+                        <td><span class="dots"></span></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="img-wrap-list">
+                            <img src="images/profile-img.png" alt="profile img">
+                          </div>
+                        </td>
+                        <td>
+                          <h3>Campaign name</h3>
+                          <p>Updated time</p>
+                        </td>
+                        <td>
+                          <div class="type-drop dropdown-table">
+                            <h4>Campaign type</h4>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="type-drop dropdown-table">
+                            <h4>Status</h4>
+                          </div>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Sent</p>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Opened</p>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Clicked</p>
+                        </td>
+                        <td>
+                          <h3>0%</h3>
+                          <p>Conversion rate</p>
+                        </td>
+                        <td><span class="dots"></span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <div class="cont-tabs-inner-border">
+                <div class="head-wrap-box">
+                  <h2>Date and time</h2>
+                </div>
+                <div class="table-responsive">
+                  <table class="table align-middle">
+                    <thead>
+                      <tr>
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="img-wrap-list">
+                            <img src="images/profile-img.png" alt="profile img">
+                          </div>
+                        </td>
+                        <td>
+                          <h3>Campaign name</h3>
+                          <p>Updated time</p>
+                        </td>
+                        <td>
+                          <div class="type-drop dropdown-table">
+                            <h4>Campaign type</h4>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="type-drop dropdown-table">
+                            <h4>Status</h4>
+                          </div>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Sent</p>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Opened</p>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Clicked</p>
+                        </td>
+                        <td>
+                          <h3>0%</h3>
+                          <p>Conversion rate</p>
+                        </td>
+                        <td><span class="dots"></span></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="img-wrap-list">
+                            <img src="images/profile-img.png" alt="profile img">
+                          </div>
+                        </td>
+                        <td>
+                          <h3>Campaign name</h3>
+                          <p>Updated time</p>
+                        </td>
+                        <td>
+                          <div class="type-drop dropdown-table">
+                            <h4>Campaign type</h4>
+                          </div>
+                        </td>
+                        <td>
+                          <div class="type-drop dropdown-table">
+                            <h4>Status</h4>
+                          </div>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Sent</p>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Opened</p>
+                        </td>
+                        <td>
+                          <h3>0</h3>
+                          <p>Clicked</p>
+                        </td>
+                        <td>
+                          <h3>0%</h3>
+                          <p>Conversion rate</p>
+                        </td>
+                        <td><span class="dots"></span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              </div>
+            </div>
+            <div class="tab-pane fade" id="live" role="tabpanel" aria-labelledby="live-tab">
+              <div class="cont-tabs-inner">
+                <h2>Live</h2>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="draft" role="tabpanel" aria-labelledby="draft-tab">
+              <div class="cont-tabs-inner">
+                <h2>Draft</h2>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="completed" role="tabpanel" aria-labelledby="completed-tab">
+              <div class="cont-tabs-inner">
+                <h2>Completed</h2>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="archived" role="tabpanel" aria-labelledby="archived-tab">
+              <div class="cont-tabs-inner">
+                <h2>Archived</h2>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="expenses" role="tabpanel" aria-labelledby="expenses-tab">
+              <div class="cont-tabs-inner">
+                <h2>Expenses</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+ 
+
+  </div>
+</body>
+
+</html>

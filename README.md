@@ -1,4 +1,1 @@
-One platform containing every tool used by
-the industry - and a host of tactics that
-have never been available in restricted
-gaming.
+ (Email marketing white label solution. It includes drag-and-drop content builder [Unlayer API](for making email/landing page templates editing), [Sparkpost API] (for email analytics), [Mixpanel API] (for getting contacts information caught through a landing page), [ReactJS app] for creating automation for registered users.)

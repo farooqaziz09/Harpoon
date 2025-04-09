@@ -1,0 +1,4 @@
+[2024-04-29 06:56:14] local.ERROR: Exception in D:\xampp\htdocs\projects\harpoon\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authenticate.php : Line#82: message: Unauthenticated.  
+[2024-04-29 07:25:20] local.ERROR: Exception in D:\xampp\htdocs\projects\harpoon\app\Http\Controllers\HomeController.php : Line#32: message: Attempt to read property "email" on null  
+[2024-04-29 12:41:18] local.ERROR: Exception in D:\xampp\htdocs\projects\harpoon\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authenticate.php : Line#82: message: Unauthenticated.  
+[2024-04-29 17:15:59] local.ERROR: Exception in D:\xampp\htdocs\projects\harpoon\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authenticate.php : Line#82: message: Unauthenticated.  

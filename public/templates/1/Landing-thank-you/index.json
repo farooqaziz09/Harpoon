@@ -1,0 +1,393 @@
+{
+	"body": {
+		"id": "OshkqmZDhY",
+		"rows": [{
+			"id": "ljrBZiBtBv",
+			"cells": [1],
+			"values": {
+				"_meta": {
+					"htmlID": "u_row_3",
+					"htmlClassNames": "u_row"
+				},
+				"anchor": "",
+				"columns": false,
+				"padding": "20px 0px",
+				"hideable": true,
+				"deletable": true,
+				"draggable": true,
+				"selectable": true,
+				"hideDesktop": false,
+				"duplicatable": true,
+				"backgroundColor": "#223e71",
+				"backgroundImage": {
+					"url": "",
+					"size": "custom",
+					"repeat": "no-repeat",
+					"position": "center",
+					"fullWidth": true
+				},
+				"displayCondition": null,
+				"columnsBackgroundColor": ""
+			},
+			"columns": [{
+				"id": "LprFAmg6hz",
+				"values": {
+					"_meta": {
+						"htmlID": "u_column_4",
+						"htmlClassNames": "u_column"
+					},
+					"border": {},
+					"padding": "0px",
+					"borderRadius": "0px",
+					"backgroundColor": ""
+				},
+				"contents": [{
+					"id": "2f21tAwiLY",
+					"type": "image",
+					"values": {
+						"src": {
+							"url": "https://a.whalehero.io/attachments/assets/000/688/931/large/betus-logo-web.png?1680107212",
+							"width": 512,
+							"height": 110,
+							"maxWidth": "17%",
+							"autoWidth": false
+						},
+						"_meta": {
+							"htmlID": "u_content_image_2",
+							"htmlClassNames": "u_content_image"
+						},
+						"action": {
+							"name": "web",
+							"attrs": {
+								"href": "{{href}}",
+								"target": "{{target}}"
+							},
+							"values": {
+								"href": "https://www.betus.com.pa/",
+								"target": "_blank"
+							}
+						},
+						"anchor": "",
+						"altText": "",
+						"hideable": true,
+						"_override": {
+							"mobile": {
+								"src": {
+									"maxWidth": "50%",
+									"autoWidth": false
+								}
+							}
+						},
+						"deletable": true,
+						"draggable": true,
+						"textAlign": "center",
+						"selectable": true,
+						"hideDesktop": false,
+						"duplicatable": true,
+						"containerPadding": "10px",
+						"displayCondition": null
+					}
+				}]
+			}]
+		}, {
+			"id": "Cqi46WJAQV",
+			"cells": [1],
+			"values": {
+				"_meta": {
+					"htmlID": "u_row_2",
+					"htmlClassNames": "u_row"
+				},
+				"anchor": "",
+				"columns": false,
+				"padding": "80px 0px 100px",
+				"hideable": true,
+				"_override": {
+					"mobile": {
+						"padding": "100px 10px"
+					}
+				},
+				"deletable": true,
+				"draggable": true,
+				"alignItems": "center",
+				"selectable": true,
+				"hideDesktop": false,
+				"duplicatable": true,
+				"backgroundColor": "",
+				"backgroundImage": {
+					"url": "https://a.whalehero.io/attachments/assets/000/696/244/large/stadium-01.png?1682961936",
+					"size": "cover",
+					"width": 230,
+					"height": 141,
+					"repeat": "no-repeat",
+					"position": "center",
+					"fullWidth": true
+				},
+				"displayCondition": null,
+				"columnsBackgroundColor": ""
+			},
+			"columns": [{
+				"id": "O-wCRd-7_A",
+				"values": {
+					"_meta": {
+						"htmlID": "u_column_2",
+						"htmlClassNames": "u_column"
+					},
+					"border": {},
+					"padding": "0px",
+					"borderRadius": "0px",
+					"backgroundColor": ""
+				},
+				"contents": [{
+					"id": "9IldYEJk0d",
+					"type": "divider",
+					"values": {
+						"_meta": {
+							"htmlID": "u_content_divider_1",
+							"htmlClassNames": "u_content_divider"
+						},
+						"width": "100%",
+						"anchor": "",
+						"border": {
+							"borderTopColor": "#BBBBBB",
+							"borderTopStyle": "solid",
+							"borderTopWidth": "0px"
+						},
+						"hideable": true,
+						"deletable": true,
+						"draggable": true,
+						"textAlign": "center",
+						"selectable": true,
+						"hideDesktop": false,
+						"duplicatable": true,
+						"containerPadding": "10px",
+						"displayCondition": null
+					}
+				}, {
+					"id": "O6nIBQCCHQ",
+					"type": "text",
+					"values": {
+						"text": "<p style=\"line-height: 140%;\">Congrats!Â </p>",
+						"_meta": {
+							"htmlID": "u_content_text_1",
+							"htmlClassNames": "u_content_text"
+						},
+						"color": "#ffffff",
+						"anchor": "",
+						"fontSize": "75px",
+						"hideable": true,
+						"deletable": true,
+						"draggable": true,
+						"linkStyle": {
+							"inherit": true,
+							"linkColor": "#0000ee",
+							"linkUnderline": true,
+							"linkHoverColor": "#0000ee",
+							"linkHoverUnderline": true
+						},
+						"textAlign": "center",
+						"fontFamily": {
+							"url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap",
+							"label": "Bebas Neue",
+							"value": "'Bebas Neue', sans-serif",
+							"weights": null,
+							"defaultFont": false
+						},
+						"lineHeight": "140%",
+						"selectable": true,
+						"hideDesktop": false,
+						"duplicatable": true,
+						"containerPadding": "32px 10px 0px",
+						"displayCondition": null
+					}
+				}, {
+					"id": "MByqTB-GNC",
+					"type": "text",
+					"values": {
+						"text": "<p style=\"line-height: 140%;\">Your offer details are on their way!</p>",
+						"_meta": {
+							"htmlID": "u_content_text_2",
+							"htmlClassNames": "u_content_text"
+						},
+						"color": "#ffffff",
+						"anchor": "",
+						"fontSize": "29px",
+						"hideable": true,
+						"deletable": true,
+						"draggable": true,
+						"linkStyle": {
+							"inherit": true,
+							"linkColor": "#0000ee",
+							"linkUnderline": true,
+							"linkHoverColor": "#0000ee",
+							"linkHoverUnderline": true
+						},
+						"textAlign": "center",
+						"fontFamily": {
+							"url": "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap",
+							"label": "Bebas Neue",
+							"value": "'Bebas Neue', sans-serif",
+							"weights": null,
+							"defaultFont": false
+						},
+						"lineHeight": "140%",
+						"selectable": true,
+						"hideDesktop": false,
+						"duplicatable": true,
+						"containerPadding": "0px 10px 10px",
+						"displayCondition": null
+					}
+				}, {
+					"id": "DJCrshEcCl",
+					"type": "text",
+					"values": {
+						"text": "<p style=\"line-height: 140%;\">Click below for an exclusive offer for UFC 288...</p>",
+						"_meta": {
+							"htmlID": "u_content_text_3",
+							"htmlClassNames": "u_content_text"
+						},
+						"color": "#ffffff",
+						"anchor": "",
+						"fontSize": "29px",
+						"hideable": true,
+						"deletable": true,
+						"draggable": true,
+						"linkStyle": {
+							"inherit": true,
+							"linkColor": "#0000ee",
+							"linkUnderline": true,
+							"linkHoverColor": "#0000ee",
+							"linkHoverUnderline": true
+						},
+						"textAlign": "center",
+						"fontFamily": {
+							"url": "",
+							"label": "Helvetica",
+							"value": "helvetica,sans-serif",
+							"weights": null,
+							"defaultFont": true
+						},
+						"lineHeight": "140%",
+						"selectable": true,
+						"hideDesktop": false,
+						"duplicatable": true,
+						"containerPadding": "0px 10px 10px",
+						"displayCondition": null
+					}
+				}, {
+					"id": "4nB21K7T7D",
+					"type": "button",
+					"values": {
+						"href": {
+							"name": "web",
+							"attrs": {
+								"href": "{{href}}",
+								"target": "{{target}}"
+							},
+							"values": {
+								"href": "https://record.revmasters.com/_5TwraJSgEHZ9Gpa7RyTMx2Nd7ZgqdRLk/1/",
+								"target": "_self"
+							}
+						},
+						"size": {
+							"width": "100%",
+							"autoWidth": true
+						},
+						"text": "<span style=\"line-height: 16.8px;\">YES! I WANT THE EXCLUSIVE BONUS!</span>",
+						"_meta": {
+							"htmlID": "u_content_button_1",
+							"htmlClassNames": "u_content_button"
+						},
+						"anchor": "",
+						"border": {},
+						"padding": "10px 20px",
+						"fontSize": "14px",
+						"hideable": true,
+						"deletable": true,
+						"draggable": true,
+						"textAlign": "center",
+						"lineHeight": "120%",
+						"selectable": true,
+						"hideDesktop": false,
+						"borderRadius": "4px",
+						"buttonColors": {
+							"color": "#FFFFFF",
+							"hoverColor": "#FFFFFF",
+							"backgroundColor": "#e03e2d",
+							"hoverBackgroundColor": "#3AAEE0"
+						},
+						"duplicatable": true,
+						"calculatedWidth": 298,
+						"calculatedHeight": 36,
+						"containerPadding": "10px",
+						"displayCondition": null
+					}
+				}]
+			}]
+		}],
+		"values": {
+			"_meta": {
+				"htmlID": "u_body",
+				"htmlClassNames": "u_body"
+			},
+			"linkStyle": {
+				"body": true,
+				"linkColor": "#0000ee",
+				"linkUnderline": true,
+				"linkHoverColor": "#0000ee",
+				"linkHoverUnderline": true
+			},
+			"textColor": "#000000",
+			"fontFamily": {
+				"label": "Arial",
+				"value": "arial,helvetica,sans-serif"
+			},
+			"popupWidth": "600px",
+			"popupHeight": "auto",
+			"borderRadius": "10px",
+			"contentAlign": "center",
+			"contentWidth": "500px",
+			"popupPosition": "center",
+			"preheaderText": "",
+			"backgroundColor": "#e7e7e7",
+			"backgroundImage": {
+				"url": "",
+				"size": "custom",
+				"repeat": "no-repeat",
+				"position": "center",
+				"fullWidth": true
+			},
+			"contentVerticalAlign": "center",
+			"popupBackgroundColor": "#FFFFFF",
+			"popupBackgroundImage": {
+				"url": "",
+				"size": "cover",
+				"repeat": "no-repeat",
+				"position": "center",
+				"fullWidth": true
+			},
+			"popupCloseButton_action": {
+				"name": "close_popup",
+				"attrs": {
+					"onClick": "document.querySelector('.u-popup-container').style.display = 'none';"
+				}
+			},
+			"popupCloseButton_margin": "0px",
+			"popupCloseButton_position": "top-right",
+			"popupCloseButton_iconColor": "#000000",
+			"popupOverlay_backgroundColor": "rgba(0, 0, 0, 0.1)",
+			"popupCloseButton_borderRadius": "0px",
+			"popupCloseButton_backgroundColor": "#DDDDDD"
+		}
+	},
+	"counters": {
+		"u_row": 3,
+		"u_column": 4,
+		"u_content_text": 3,
+		"u_content_image": 2,
+		"u_content_button": 1,
+		"u_content_divider": 1,
+		"u_content_heading": 3,
+		"u_content_mailmunch#form": 1
+	},
+	"schemaVersion": 14
+}

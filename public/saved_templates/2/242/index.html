@@ -1,0 +1,793 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    
+    
+      <style type="text/css">
+        .u-row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.u-row .u-col {
+  position: relative;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+.u-row .u-col.u-col-33p33 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.u-row .u-col.u-col-50 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.u-row .u-col.u-col-100 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+
+@media (max-width: 767px) {
+  .u-row:not(.no-stack) {
+    flex-wrap: wrap;
+  }
+
+  .u-row:not(.no-stack) .u-col {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+body,html{padding:0;margin:0}html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}html{font-size:14px;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:rgba(0,0,0,0)}p{margin:0}form .error-field{-webkit-animation-name:shake;animation-name:shake;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}form .error-field input,form .error-field textarea{border-color:#a94442!important;color:#a94442!important}form .field-error{padding:5px 10px;font-size:14px;font-weight:700;position:absolute;top:-20px;right:10px}form .field-error:after{top:100%;left:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(136,183,213,0);border-top-color:#ebcccc;border-width:5px;margin-left:-5px}form .spinner{margin:0 auto;width:70px;text-align:center}form .spinner>div{width:12px;height:12px;background-color:hsla(0,0%,100%,.5);margin:0 2px;border-radius:100%;display:inline-block;-webkit-animation:sk-bouncedelay 1.4s infinite ease-in-out both;animation:sk-bouncedelay 1.4s infinite ease-in-out both}form .spinner .bounce1{-webkit-animation-delay:-.32s;animation-delay:-.32s}form .spinner .bounce2{-webkit-animation-delay:-.16s;animation-delay:-.16s}@-webkit-keyframes sk-bouncedelay{0%,80%,to{-webkit-transform:scale(0)}40%{-webkit-transform:scale(1)}}@keyframes sk-bouncedelay{0%,80%,to{-webkit-transform:scale(0);transform:scale(0)}40%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@media (max-width:480px){.container{max-width:100%!important}}@media (min-width:481px) and (max-width:768px){.hide-tablet{display:none!important}}.container{width:100%;padding-right:0;padding-left:0;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}
+
+a[onclick] {
+  cursor: pointer;
+}
+body { font-family: 'Montserrat',sans-serif; font-size: 1rem; line-height: 1.5; color: #1c1632; background-color: #ffffff; } #u_body a { color: #ffffff; text-decoration: underline; } #u_body a:hover { color: #ffffff; text-decoration: underline; } #u_content_form_3 button:hover { color: #FFF !important; background-color: #3AAEE0 !important; } #u_content_form_3 input::placeholder { color: #000; opacity: 0.5; } #u_content_form_5 button:hover { color: #FFF !important; background-color: #3AAEE0 !important; } #u_content_form_5 input::placeholder { color: #000; opacity: 0.5; } @media (max-width: 480px) { #u_row_13.v-row-padding { padding: 50px 25px 100px !important; } #u_content_heading_15 .v-font-size { font-size: 28px !important; } #u_row_16.v-row-padding { padding: 50px 25px 20px !important; } #u_content_heading_18 .v-font-size { font-size: 28px !important; } #u_row_6.v-row-padding { padding: 50px 25px 0px !important; } #u_content_heading_10 .v-font-size { font-size: 28px !important; } #u_row_15.v-row-padding { padding: 50px 25px !important; } #u_content_text_17 .v-font-size { font-size: 14px !important; } #u_row_14.v-row-padding { padding: 50px 25px !important; } #u_content_text_16 .v-font-size { font-size: 14px !important; } #u_row_4.v-row-padding { padding: 50px 25px !important; } #u_content_text_2 .v-font-size { font-size: 14px !important; } #u_row_22.v-row-padding { padding: 50px 25px !important; } #u_content_text_26 .v-font-size { font-size: 14px !important; } #u_row_3.v-row-padding { padding: 50px 25px 30px !important; } #u_content_heading_2 .v-font-size { font-size: 18px !important; } #u_row_20.v-row-padding { padding: 50px 25px 20px !important; } #u_content_heading_26 .v-font-size { font-size: 28px !important; } #u_row_17.v-row-padding { padding: 25px 25px 100px !important; } #u_content_image_13 .v-src-width { width: auto !important; } #u_content_image_13 .v-src-max-width { max-width: 45% !important; } #u_content_heading_19 .v-font-size { font-size: 20px !important; } #u_content_image_14 .v-src-width { width: auto !important; } #u_content_image_14 .v-src-max-width { max-width: 46% !important; } #u_content_heading_20 .v-font-size { font-size: 20px !important; } #u_content_image_15 .v-src-width { width: auto !important; } #u_content_image_15 .v-src-max-width { max-width: 45% !important; } #u_content_heading_21 .v-font-size { font-size: 20px !important; } #u_row_8.v-row-padding { padding: 50px 25px 30px !important; } #u_content_heading_14 .v-font-size { font-size: 24px !important; } #u_content_text_11 .v-font-size { font-size: 16px !important; } #u_row_7.v-row-padding { padding: 25px 25px 45px !important; } #u_content_text_8 .v-font-size { font-size: 14px !important; } #u_content_text_9 .v-font-size { font-size: 14px !important; } #u_content_text_10 .v-font-size { font-size: 14px !important; } #u_row_11.v-row-padding { padding: 20px 25px 50px !important; } #u_content_image_16 .v-src-width { width: auto !important; } #u_content_image_16 .v-src-max-width { max-width: 61% !important; } }
+      </style>
+    
+    
+  </head>
+  <body>
+    
+  <div id="u_body" class="u_body" style="min-height: 100vh;">
+    
+  <div id="u_row_1" class="u_row v-row-padding" style="background-color: #ffffff; padding: 25px 50px 0px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_1" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_1" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/163187/1706475339885-26783_currie_igpwm_logo_horizontal_rgb_300dpi_e.png" style="width: 100%;max-width: 325px;" title=""/>
+  
+</div>
+
+  </div>
+
+  <div id="u_content_divider_1" class="u_content_divider" style="overflow-wrap: break-word;padding: 10px;">
+    <div style="text-align:center;line-height:0"><div style="border-top-width:1px;border-top-style:solid;border-top-color:#BBBBBB;width:100%;display:inline-block;line-height:1px;height:0px;vertical-align:middle"> </div></div>
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_13" class="u_row v-row-padding" style="padding: 50px 50px 100px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row" style="align-items: center;">
+        
+<div id="u_column_21" class="u-col u-col-100 u_column" style="display:flex;align-items:center;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_15" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #1e1a34; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 38px; font-weight: 700;"><span><span><span><span><span><span><span><span><span><span><span><span><span><span>Unlock Hidden Savings in Your Portfolio: Discover the True Cost Breakdown Today!</span></span></span></span></span></span></span></span></span></span></span></span></span></span></h1>
+
+  </div>
+
+  <div id="u_content_text_15" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">Optimize Your Investments with Our Expert Analysis and Lower Fees, Starting with a Free Cost Breakdown Report.</p> <p style="line-height: 140%;"> </p> <p style="line-height: 140%;">Enter your email to receive your<strong> FREE one on one consultation</strong> below!</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_form_3" class="u_content_form" style="overflow-wrap: break-word;padding: 10px;">
+    <div style="text-align:center"><form action="" method="GET" style="display:inline-block;width:41%;box-sizing:border-box" target="_self"><div color="#000" class="sc-jEACwC wZTDr"><div style="padding-bottom:10px"><div style="text-align:left;color:#444;font-size:14px;padding:0px 0px 3px"></div><div style="position:relative"><input type="text" name="name" placeholder="Name" style="border-top-width:1px;border-top-style:solid;border-top-color:#CCC;border-left-width:1px;border-left-style:solid;border-left-color:#CCC;border-right-width:1px;border-right-style:solid;border-right-color:#CCC;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#CCC;border-radius:0px;padding:10px;color:#000;background-color:#FFF;font-size:12px;width:100%"/></div></div></div><div color="#000" class="sc-jEACwC wZTDr"><div style="padding-bottom:10px"><div style="text-align:left;color:#444;font-size:14px;padding:0px 0px 3px"><label>Email *</label></div><div style="position:relative"><input type="email" required="" name="email" placeholder="Enter email here" style="border-top-width:1px;border-top-style:solid;border-top-color:#CCC;border-left-width:1px;border-left-style:solid;border-left-color:#CCC;border-right-width:1px;border-right-style:solid;border-right-color:#CCC;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#CCC;border-radius:0px;padding:10px;color:#000;background-color:#FFF;font-size:12px;width:100%"/></div></div></div><div style="text-align:center"><button type="submit" style="border:none;border-radius:4px;display:inline-block;text-align:center;overflow:hidden;cursor:pointer;text-decoration:none;padding:10px;margin:5px 0px 0px;font-size:14px;width:100%;color:#FFF;background-color:#3AAEE0">Submit</button></div></form></div>
+  </div>
+
+  <div id="u_content_html_2" class="u_content_html" style="overflow-wrap: break-word;padding: 10px;">
+    <div><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-N62S848C');</script><!-- End Google Tag Manager --><!-- Google Tag Manager (noscript) --><noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-N62S848C\"height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript><!-- End Google Tag Manager (noscript) --></div>
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_23" class="u_row v-row-padding" style="padding: 0px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_38" class="u-col u-col-50 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_22" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/218529/1709643983225-629383ee30fb025780ee2970.png" style="width: 100%;max-width: 600px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_39" class="u-col u-col-50 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_23" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/218529/1709644053716-Screenshot%202024-03-05%20at%209.07.20%20AM.png" style="width: 100%;max-width: 1420px;" title=""/>
+  
+</div>
+
+  </div>
+
+  <div id="u_content_image_24" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/218529/1709644110309-Screenshot%202024-03-05%20at%209.07.54%20AM.png" style="width: 100%;max-width: 1388px;" title=""/>
+  
+</div>
+
+  </div>
+
+  <div id="u_content_image_25" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/218529/1709646261188-Screenshot%202024-03-05%20at%209.44.11%20AM.png" style="width: 100%;max-width: 1344px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_16" class="u_row v-row-padding" style="padding: 50px 50px 20px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_27" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_divider_4" class="u_content_divider" style="overflow-wrap: break-word;padding: 10px;">
+    <div style="text-align:center;line-height:0"><div style="border-top-width:1px;border-top-style:solid;border-top-color:#BBBBBB;width:100%;display:inline-block;line-height:1px;height:0px;vertical-align:middle"> </div></div>
+  </div>
+
+  <div id="u_content_heading_18" class="u_content_heading" style="overflow-wrap: break-word;padding: 25px 10px 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #1e1a34; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 32px; font-weight: 700;"><span><strong>Uncover Significant Savings</strong></span></h1>
+
+  </div>
+
+  <div id="u_content_text_1" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; color: #1c1632; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">Are you leaving money on the table by overpaying for investment services? Let's take a closer look at the potential savings and how they could enhance your financial future.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_21" class="u_row v-row-padding" style="background-color: #1e1a34; padding: 0px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_35" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px 0px 20px;">
+    
+  <div id="u_content_heading_27" class="u_content_heading" style="overflow-wrap: break-word;padding: 40px 10px 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><span><span><span><span>Example #1</span></span></span></span></h1>
+
+  </div>
+
+  <div id="u_content_text_24" class="u_content_text" style="overflow-wrap: break-word;padding: 10px 10px 21px;">
+    
+  <div class="v-font-size" style="font-size: 14px; color: #ffffff; line-height: 220%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 220%;">For a client with<strong> $2,000,000</strong> in investments over 10 years, even a modest savings of 0.60% per year can accumulate to a substantial amount. With our expert analysis and optimized strategies, you could<strong> save a total of $499,809 over the next decade, </strong>ensuring your investments work harder for you.</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_image_18" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/218529/1709042019205-image001.jpg" style="width: 100%;max-width: 1411px;" title=""/>
+  
+</div>
+
+  </div>
+
+  <div id="u_content_heading_28" class="u_content_heading" style="overflow-wrap: break-word;padding: 40px 10px 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><span><span><span><span><span>Example #2</span></span></span></span></span></h1>
+
+  </div>
+
+  <div id="u_content_text_25" class="u_content_text" style="overflow-wrap: break-word;padding: 10px 10px 25px;">
+    
+  <div class="v-font-size" style="font-size: 14px; color: #ffffff; line-height: 220%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 220%;">Even for individuals with <strong>$1,000,000 </strong>in investments, the impact of slight savings can be significant. With a 0.45% savings per year over 10 years,<strong> you could enjoy total savings of $185,620</strong>, providing you with additional financial security and peace of mind.</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_image_19" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/218529/1709042268013-image002.png" style="width: 100%;max-width: 1414px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_6" class="u_row v-row-padding" style="padding: 50px 50px 0px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_10" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_divider_2" class="u_content_divider" style="overflow-wrap: break-word;padding: 10px;">
+    <div style="text-align:center;line-height:0"><div style="border-top-width:1px;border-top-style:solid;border-top-color:#BBBBBB;width:100%;display:inline-block;line-height:1px;height:0px;vertical-align:middle"> </div></div>
+  </div>
+
+  <div id="u_content_heading_10" class="u_content_heading" style="overflow-wrap: break-word;padding: 23px 10px 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #1e1a34; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 32px; font-weight: 700;"><span><span><span><span><span><span><span>Your Specialists<br /></span></span></span></span></span></span></span></h1>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_15" class="u_row v-row-padding" style="padding: 50px 50px 25px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row" style="align-items: flex-start;">
+        
+<div id="u_column_25" class="u-col u-col-50 u_column" style="display:flex;align-items:flex-start;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_12" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/163187/1706620552097-Jamie%20Currie.jpeg" style="width: 100%;max-width: 507px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_26" class="u-col u-col-50 u_column" style="display:flex;align-items:flex-start;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_17" class="u_content_heading" style="overflow-wrap: break-word;padding: 49px 10px 0px;">
+    
+  <h3 class="v-font-size" style="margin: 0px; color: #1e1a34; line-height: 140%; text-align: left; word-wrap: break-word; font-family: inherit; font-size: 18px; font-weight: 700;"><span><span><span><span><span><span><span><span><span><span>Jamie Curri</span></span></span></span></span></span></span>e</span></span></span></h3>
+
+  </div>
+
+  <div id="u_content_text_17" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 16px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Jamie graduated from the University of Prince Edward Island in 2012 and obtained his CFP® designation in 2019. He is passionate about financial planning and bringing his team and clients from good to great to optimal.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_14" class="u_row v-row-padding" style="padding: 25px 50px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row" style="align-items: flex-start;">
+        
+<div id="u_column_23" class="u-col u-col-50 u_column" style="display:flex;align-items:flex-start;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_16" class="u_content_heading" style="overflow-wrap: break-word;padding: 100px 10px 0px;">
+    
+  <h3 class="v-font-size" style="margin: 0px; color: #1e1a34; line-height: 140%; text-align: left; word-wrap: break-word; font-family: inherit; font-size: 18px; font-weight: 700;"><span><span><span><span><span><span>Andrew Hughes</span></span></span></span></span></span></h3>
+
+  </div>
+
+  <div id="u_content_text_16" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 16px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Andrew Hughes is a Registered Retirement Consultant. Andrew has over 7 years of experience in the financial services industry and comes from the field of education, having been a school administrator both in PEI and internationally. In addition to his RRC designation, Andrew holds a BA from UPEI, a B.ED from the University of Maine and a Master of Education from UPEI.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_24" class="u-col u-col-50 u_column" style="display:flex;align-items:flex-start;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_11" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/163187/1706620629835-andrew_hughes.jpg" style="width: 100%;max-width: 500px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_4" class="u_row v-row-padding" style="padding: 25px 50px 50px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row" style="align-items: flex-start;">
+        
+<div id="u_column_5" class="u-col u-col-50 u_column" style="display:flex;align-items:flex-start;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_10" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/163187/1706620706424-patrick_steele.jpg" style="width: 100%;max-width: 500px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_6" class="u-col u-col-50 u_column" style="display:flex;align-items:flex-start;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_6" class="u_content_heading" style="overflow-wrap: break-word;padding: 100px 10px 0px;">
+    
+  <h3 class="v-font-size" style="margin: 0px; color: #1e1a34; line-height: 140%; text-align: left; word-wrap: break-word; font-family: inherit; font-size: 18px; font-weight: 700;"><span><span><span>Patrick Steele<br /></span></span></span></h3>
+
+  </div>
+
+  <div id="u_content_text_2" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 16px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Patrick Steele holds a CERTIFIED FINANCIAL PLANNER® (CFP) and Registered Retirement Consultant (RRC) designation, and has over three years of experience in the financial services industry. He is working towards obtaining the Chartered Financial Analyst (CFA) designation. Patrick has a passion for financial planning and enjoys taking the time in helping educate clients in further developing their financial literacy. Through planning and in-depth discussions, he aims to provide guidance for clients in achieving their financial goals.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_22" class="u_row v-row-padding" style="padding: 25px 50px 50px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row" style="align-items: flex-start;">
+        
+<div id="u_column_36" class="u-col u-col-50 u_column" style="display:flex;align-items:flex-start;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_29" class="u_content_heading" style="overflow-wrap: break-word;padding: 100px 10px 0px;">
+    
+  <h3 class="v-font-size" style="margin: 0px; color: #1e1a34; line-height: 140%; text-align: left; word-wrap: break-word; font-family: inherit; font-size: 18px; font-weight: 700;"><span><span><span><span><span><span>Ron MacDougall<br /></span></span></span></span></span></span></h3>
+
+  </div>
+
+  <div id="u_content_text_26" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 16px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Ron MacDougall is an Associate Consultant. Upon retiring after a highly successful management career in the Telecommunications industry, he joined IG Wealth Management over 10 years ago. Ron realized that IG would be a very exciting new career path where he could utilize his skillset in conjunction with the powerful planning solutions within the company. Assisting clients in addressing their financial concerns with unique personal financial plans became his passion.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_37" class="u-col u-col-50 u_column" style="display:flex;align-items:flex-start;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_20" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/218529/1709643468396-ron_macdougall.webp" style="width: 100%;max-width: 500px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_3" class="u_row v-row-padding" style="background-color: #1e1a34; padding: 70px 50px;background-image: url('https://assets.unlayer.com/projects/163187/1706524834632-m-oo1i1wpjcms-unsplash.jpg');background-repeat: no-repeat;background-position: center center;background-size: cover;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_4" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_2" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 32px; font-weight: 700;"><span><span><span><span><span>Our personalized advice goes beyond evaluating numbers..</span></span></span></span></span></h1>
+
+  </div>
+
+  <div id="u_content_text_18" class="u_content_text" style="overflow-wrap: break-word;padding: 10px 30px;">
+    
+  <div class="v-font-size" style="font-size: 16px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">Our approach begins with a deep understanding of what truly matters to you and how your needs might evolve – to ensure your plan today meets the needs of your tomorrow.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_20" class="u_row v-row-padding" style="padding: 50px 50px 20px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_34" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_26" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #1e1a34; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 32px; font-weight: 700;"><span><span><span><span>Our Solutions</span></span></span></span></h1>
+
+  </div>
+
+  <div id="u_content_text_23" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; color: #1c1632; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">With an enhanced team-based approach that provides both local and national industry expertise, Currie, Hughes, Mullins &amp; Associates provides you with an elevated level of advice and resources. We provide comprehensive wealth management solutions and based on what is right for your unique needs, we will tailor an approach specific to managing your wealth and achieving your goals.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_17" class="u_row v-row-padding" style="padding: 25px 50px 100px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row" style="align-items: flex-start;">
+        
+<div id="u_column_28" class="u-col u-col-33p33 u_column" style="display:flex;align-items:flex-start;background-color:#ffffff;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 15px;">
+  <div style="width: 100%;padding:15px 15px 0px;">
+    
+  <div id="u_content_image_13" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/163187/1706522810459-tax-icon.png" style="width: 78%;max-width: 78%;" title=""/>
+  
+</div>
+
+  </div>
+
+  <div id="u_content_heading_19" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px 10px 0px;">
+    
+  <h2 class="v-font-size" style="margin: 0px; color: #1e1a34; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 700;"><span><span><span><span>Tax Planning</span></span></span></span></h2>
+
+  </div>
+
+  <div id="u_content_text_19" class="u_content_text" style="overflow-wrap: break-word;padding: 5px 10px 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; color: #1c1632; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">Taxes are a critical consideration that impact every aspect of your financial life. As part of a holistic planning approach, we’ll integrate sophisticated tax planning solutions to help manage the complexities of your wealth and ensure your overall plan is tax-efficient.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_29" class="u-col u-col-33p33 u_column" style="display:flex;align-items:flex-start;background-color:#ffffff;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 15px;">
+  <div style="width: 100%;padding:25px 15px;">
+    
+  <div id="u_content_image_14" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/163187/1706522891130-investment-planning.png" style="width: 75%;max-width: 75%;" title=""/>
+  
+</div>
+
+  </div>
+
+  <div id="u_content_heading_20" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px 0px 0px;">
+    
+  <h2 class="v-font-size" style="margin: 0px; color: #1e1a34; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 700;"><span><span><span><span><span><span><span><span>Investment Planning</span></span></span></span></span></span></span></span></h2>
+
+  </div>
+
+  <div id="u_content_text_20" class="u_content_text" style="overflow-wrap: break-word;padding: 5px 10px 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; color: #1c1632; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">We are guided by a disciplined investment approach that leverages the combined talents of IG Wealth Management’s investments team and leading global investment partners. This helps unlock a world of opportunity</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_30" class="u-col u-col-33p33 u_column" style="display:flex;align-items:flex-start;background-color:#ffffff;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 15px;">
+  <div style="width: 100%;padding:25px 15px;">
+    
+  <div id="u_content_image_15" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/163187/1706522917426-estate-icon.png" style="width: 75%;max-width: 75%;" title=""/>
+  
+</div>
+
+  </div>
+
+  <div id="u_content_heading_21" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px 10px 0px;">
+    
+  <h2 class="v-font-size" style="margin: 0px; color: #1e1a34; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 700;"><span><span><span><span>Estate Planning</span></span></span></span></h2>
+
+  </div>
+
+  <div id="u_content_text_21" class="u_content_text" style="overflow-wrap: break-word;padding: 5px 10px 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">Creating a legacy for the people, organizations and causes you care about requires proactive planning. We will help you create a carefully structured estate plan that reflects your unique wishes, protects your wealth and provides clarity to those you love.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_8" class="u_row v-row-padding" style="background-color: #1c1632; padding: 50px 50px 30px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_14" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_14" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 32px; font-weight: 700;">Ready to uncover potential savings and optimize your investments? Schedule your free cost breakdown report today and take the first step towards financial empowerment.</h1>
+
+  </div>
+
+  <div id="u_content_text_11" class="u_content_text" style="overflow-wrap: break-word;padding: 0px 10px 10px;">
+    
+  <div class="v-font-size" style="font-size: 20px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">Enter your email below to book your call today!</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_form_5" class="u_content_form" style="overflow-wrap: break-word;padding: 10px;">
+    <div style="text-align:center"><form action="" method="GET" style="display:inline-block;width:52%;box-sizing:border-box" target="_self"><div color="#000" class="sc-jEACwC wZTDr"><div style="padding-bottom:10px"><div style="text-align:left;color:#444;font-size:14px;padding:0px 0px 3px"></div><div style="position:relative"><input type="text" name="name" placeholder="Name" style="border-top-width:1px;border-top-style:solid;border-top-color:#CCC;border-left-width:1px;border-left-style:solid;border-left-color:#CCC;border-right-width:1px;border-right-style:solid;border-right-color:#CCC;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#CCC;border-radius:0px;padding:10px;color:#000;background-color:#FFF;font-size:12px;width:100%"/></div></div></div><div color="#000" class="sc-jEACwC wZTDr"><div style="padding-bottom:10px"><div style="text-align:left;color:#444;font-size:14px;padding:0px 0px 3px"><label>Email *</label></div><div style="position:relative"><input type="email" required="" name="email" placeholder="Enter email here" style="border-top-width:1px;border-top-style:solid;border-top-color:#CCC;border-left-width:1px;border-left-style:solid;border-left-color:#CCC;border-right-width:1px;border-right-style:solid;border-right-color:#CCC;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#CCC;border-radius:0px;padding:10px;color:#000;background-color:#FFF;font-size:12px;width:100%"/></div></div></div><div style="text-align:center"><button type="submit" style="border:none;border-radius:4px;display:inline-block;text-align:center;overflow:hidden;cursor:pointer;text-decoration:none;padding:10px;margin:5px 0px 0px;font-size:14px;width:100%;color:#FFF;background-color:#3AAEE0">Submit</button></div></form></div>
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_7" class="u_row v-row-padding" style="background-color: #1c1632; padding: 25px 50px 45px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_11" class="u-col u-col-33p33 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 15px;">
+  <div style="width: 100%;padding:20px 20px 6px;">
+    
+  <div id="u_content_heading_11" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h3 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 18px; font-weight: 700;"><span><span>About Us</span></span></h3>
+
+  </div>
+
+  <div id="u_content_text_8" class="u_content_text" style="overflow-wrap: break-word;padding: 5px 10px 10px;">
+    
+  <div class="v-font-size" style="font-size: 16px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Welcome to Currie, Hughes, Mullins &amp; Associates. We are a team of financial professionals who are committed to guiding affluent Canadians toward their financial goals.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_12" class="u-col u-col-33p33 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 15px;">
+  <div style="width: 100%;padding:20px;">
+    
+  <div id="u_content_heading_12" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h3 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 18px; font-weight: 700;"><span><span><span>Our Approach</span></span></span></h3>
+
+  </div>
+
+  <div id="u_content_text_9" class="u_content_text" style="overflow-wrap: break-word;padding: 5px 10px 10px;">
+    
+  <div class="v-font-size" style="font-size: 16px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">We will build your plan always to reflect your changing needs and inspire confidence in your complete financial well-being. Our proactive and synchronized approach is based on experience and insights gained in serving a variety of clients over the years.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_13" class="u-col u-col-33p33 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 15px;">
+  <div style="width: 100%;padding:20px;">
+    
+  <div id="u_content_heading_13" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h3 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 18px; font-weight: 700;"><span>Community Involvement</span></h3>
+
+  </div>
+
+  <div id="u_content_text_10" class="u_content_text" style="overflow-wrap: break-word;padding: 5px 10px 10px;">
+    
+  <div class="v-font-size" style="font-size: 16px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">We give back to the communities in which we live and work. Individually, and as a team, we support several causes and contribute to a variety of organizations.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_11" class="u_row v-row-padding" style="background-color: #1e1a34; padding: 20px 50px 50px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_19" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_26" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/218529/1709644219149-Screenshot%202024-03-05%20at%209.09.59%20AM.png" style="width: 100%;max-width: 2972px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_18" class="u_row v-row-padding" style="padding: 20px 0px;">
+    <div class="container" style="max-width: 980px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_31" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_16" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/163187/1706566895031-26783_currie_igpwm_logo_horizontal_rgb_300dpi_e.png" style="width: 100%;max-width: 325px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  </body>
+</html>

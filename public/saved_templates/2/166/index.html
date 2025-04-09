@@ -1,0 +1,869 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.google.com/specimen/Space+Grotesk" rel="stylesheet" type="text/css">
+    
+    
+      <style type="text/css">
+        .u-row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.u-row .u-col {
+  position: relative;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+.u-row .u-col.u-col-6p25 {
+  flex: 0 0 6.25%;
+  max-width: 6.25%;
+}
+
+.u-row .u-col.u-col-33p33 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.u-row .u-col.u-col-43p75 {
+  flex: 0 0 43.75%;
+  max-width: 43.75%;
+}
+
+.u-row .u-col.u-col-50 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.u-row .u-col.u-col-100 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+
+@media (max-width: 767px) {
+  .u-row:not(.no-stack) {
+    flex-wrap: wrap;
+  }
+
+  .u-row:not(.no-stack) .u-col {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+body,html{padding:0;margin:0}html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}html{font-size:14px;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:rgba(0,0,0,0)}p{margin:0}form .error-field{-webkit-animation-name:shake;animation-name:shake;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}form .error-field input,form .error-field textarea{border-color:#a94442!important;color:#a94442!important}form .field-error{padding:5px 10px;font-size:14px;font-weight:700;position:absolute;top:-20px;right:10px}form .field-error:after{top:100%;left:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(136,183,213,0);border-top-color:#ebcccc;border-width:5px;margin-left:-5px}form .spinner{margin:0 auto;width:70px;text-align:center}form .spinner>div{width:12px;height:12px;background-color:hsla(0,0%,100%,.5);margin:0 2px;border-radius:100%;display:inline-block;-webkit-animation:sk-bouncedelay 1.4s infinite ease-in-out both;animation:sk-bouncedelay 1.4s infinite ease-in-out both}form .spinner .bounce1{-webkit-animation-delay:-.32s;animation-delay:-.32s}form .spinner .bounce2{-webkit-animation-delay:-.16s;animation-delay:-.16s}@-webkit-keyframes sk-bouncedelay{0%,80%,to{-webkit-transform:scale(0)}40%{-webkit-transform:scale(1)}}@keyframes sk-bouncedelay{0%,80%,to{-webkit-transform:scale(0);transform:scale(0)}40%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@media (max-width:480px){.hide-mobile{display:none!important}.container{max-width:100%!important}}@media (min-width:481px) and (max-width:768px){.hide-tablet{display:none!important}}.container{width:100%;padding-right:0;padding-left:0;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}
+
+a[onclick] {
+  cursor: pointer;
+}
+body { font-family: 'Space Grotesk',sans-serif; font-size: 1rem; line-height: 1.5; color: #ffffff; background-color: #282b28; } #u_body a { color: #0000ee; text-decoration: underline; } #u_body a:hover { color: #0000ee; text-decoration: underline; } #u_content_button_1 a:hover { color: #FFFFFF !important; background-color: #3AAEE0 !important; } #u_content_button_3 a:hover { color: #FFFFFF !important; background-color: #3AAEE0 !important; } @media (max-width: 480px) { #u_row_2.v-row-padding { padding: 30px 10px 20px !important; } #u_content_image_1 .v-src-width { width: auto !important; } #u_content_image_1 .v-src-max-width { max-width: 41% !important; } #u_content_image_1 .v-text-align { text-align: center !important; } #u_content_button_1.v-container-padding-padding { padding: 30px 10px 10px !important; } #u_content_button_1 .v-text-align { text-align: center !important; } #u_content_heading_1.v-container-padding-padding { padding: 10px 20px !important; } #u_content_heading_1 .v-font-size { font-size: 28px !important; } #u_content_heading_2.v-container-padding-padding { padding: 20px 20px 60px !important; } #u_content_image_2.v-container-padding-padding { padding: 0px !important; } #u_column_41 .v-col-padding { padding: 60px 0px 20px !important; } #u_content_heading_3.v-container-padding-padding { padding: 20px !important; } #u_content_heading_3 .v-font-size { font-size: 28px !important; } #u_content_heading_4.v-container-padding-padding { padding: 20px !important; } #u_content_heading_4 .v-font-size { font-size: 18px !important; } #u_row_4.v-row-padding { padding: 0px !important; } #u_column_5 .v-col-padding { padding: 0px !important; } #u_content_heading_5.v-container-padding-padding { padding: 10px 10px 0px !important; } #u_content_heading_5 .v-font-size { font-size: 18px !important; } #u_content_heading_5 a { color: #0000ee !important; text-decoration: underline !important; } #u_content_heading_5 a:hover { color: #0000ee !important; background-color: underline !important; } #u_content_text_1.v-container-padding-padding { padding: 20px 20px 40px !important; } #u_column_6 .v-col-padding { padding: 0px !important; } #u_content_heading_6.v-container-padding-padding { padding: 10px 10px 0px !important; } #u_content_heading_6 .v-font-size { font-size: 18px !important; } #u_content_text_2.v-container-padding-padding { padding: 20px 20px 40px !important; } #u_column_7 .v-col-padding { padding: 0px !important; } #u_content_heading_7.v-container-padding-padding { padding: 10px 10px 0px !important; } #u_content_heading_7 .v-font-size { font-size: 18px !important; } #u_content_text_3.v-container-padding-padding { padding: 20px 20px 40px !important; } #u_row_6.v-row-padding { padding: 0px 0px 60px !important; } #u_content_heading_14.v-container-padding-padding { padding: 10px 0px 0px !important; } #u_content_heading_14 .v-font-size { font-size: 18px !important; } #u_content_text_8.v-container-padding-padding { padding: 20px 20px 40px !important; } #u_content_heading_9.v-container-padding-padding { padding: 10px 0px 0px !important; } #u_content_heading_9 .v-font-size { font-size: 18px !important; } #u_content_text_5.v-container-padding-padding { padding: 20px !important; } #u_content_heading_11.v-container-padding-padding { padding: 20px !important; } #u_content_heading_11 .v-font-size { font-size: 40px !important; } #u_content_heading_12.v-container-padding-padding { padding: 20px !important; } #u_content_heading_12 .v-font-size { font-size: 18px !important; } #u_content_html_4.v-container-padding-padding { padding: 20px !important; } #u_content_heading_13.v-container-padding-padding { padding: 20px !important; } #u_content_text_7.v-container-padding-padding { padding: 20px !important; } #u_content_text_7 .v-font-size { font-size: 16px !important; } #u_content_heading_8.v-container-padding-padding { padding: 20px !important; } #u_content_text_4.v-container-padding-padding { padding: 0px 20px 20px !important; } #u_content_text_4 .v-font-size { font-size: 16px !important; } #u_content_heading_17.v-container-padding-padding { padding: 20px !important; } #u_content_text_11.v-container-padding-padding { padding: 0px 20px 20px !important; } #u_content_text_11 .v-font-size { font-size: 16px !important; } #u_content_heading_16.v-container-padding-padding { padding: 20px !important; } #u_content_text_10.v-container-padding-padding { padding: 0px 20px 20px !important; } #u_content_text_10 .v-font-size { font-size: 16px !important; } #u_content_heading_15.v-container-padding-padding { padding: 20px !important; } #u_content_text_9.v-container-padding-padding { padding: 0px 20px 20px !important; } #u_content_text_9 .v-font-size { font-size: 16px !important; } #u_row_8.v-row-padding { padding: 60px 0px 0px !important; } #u_content_heading_18.v-container-padding-padding { padding: 20px !important; } #u_content_heading_18 .v-font-size { font-size: 47px !important; } #u_content_heading_19.v-container-padding-padding { padding: 20px !important; } #u_content_text_12.v-container-padding-padding { padding: 20px !important; } #u_content_text_13.v-container-padding-padding { padding: 20px !important; } #u_content_image_3.v-container-padding-padding { padding: 10px !important; } #u_content_heading_20.v-container-padding-padding { padding: 20px !important; } #u_content_heading_20 .v-font-size { font-size: 28px !important; } #u_content_heading_21.v-container-padding-padding { padding: 20px !important; } #u_content_heading_21 .v-font-size { font-size: 20px !important; } #u_content_text_14.v-container-padding-padding { padding: 20px !important; } #u_content_image_4.v-container-padding-padding { padding: 10px 10px 0px !important; } #u_row_11.v-row-padding { padding: 80px 0px 40px !important; } #u_content_heading_22.v-container-padding-padding { padding: 20px !important; } #u_content_heading_22 .v-font-size { font-size: 36px !important; } #u_content_heading_23.v-container-padding-padding { padding: 20px !important; } #u_row_12.v-row-padding { padding: 0px !important; } #u_content_image_6 .v-src-width { width: 100% !important; } #u_content_image_6 .v-src-max-width { max-width: 100% !important; } #u_content_heading_24.v-container-padding-padding { padding: 20px !important; } #u_content_text_15.v-container-padding-padding { padding: 0px 20px 20px !important; } #u_content_heading_25.v-container-padding-padding { padding: 20px !important; } #u_content_text_16.v-container-padding-padding { padding: 0px 20px 20px !important; } #u_row_17.v-row-padding { padding: 0px !important; } #u_content_heading_33.v-container-padding-padding { padding: 20px !important; } #u_content_text_24.v-container-padding-padding { padding: 0px 20px 20px !important; } #u_content_heading_34.v-container-padding-padding { padding: 20px !important; } #u_content_text_25.v-container-padding-padding { padding: 0px 20px 20px !important; } #u_content_heading_31.v-container-padding-padding { padding: 20px !important; } #u_content_text_22.v-container-padding-padding { padding: 0px 20px 20px !important; } #u_content_heading_30.v-container-padding-padding { padding: 20px !important; } #u_content_text_21.v-container-padding-padding { padding: 20px !important; } #u_content_text_21 .v-font-size { font-size: 16px !important; } #u_content_image_11.v-container-padding-padding { padding: 60px 10px 30px !important; } #u_content_image_11 .v-src-width { width: auto !important; } #u_content_image_11 .v-src-max-width { max-width: 40% !important; } }
+      </style>
+    
+    
+  </head>
+  <body>
+    
+  <div id="u_body" class="u_body" style="min-height: 100vh;">
+    
+  <div id="u_row_2" class="u_row v-row-padding" style="padding: 50px 10px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row" style="align-items: center;">
+        
+<div id="u_column_2" class="u-col u-col-50 u_column" style="display:flex;align-items:center;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_1" class="u_content_image v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div class="v-text-align" style="position:relative;line-height:0px;text-align:left">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/187234/1697546342903-logo.png" style="width: 35%;max-width: 35%;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_3" class="u-col u-col-50 u_column" style="display:flex;align-items:center;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_button_1" class="u_content_button v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div class="v-text-align" style="text-align: right;">
+  <a href="" target="_blank" class="v-font-size" style="color:#FFFFFF;background-color:transparent;border-radius: 0px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;border-top-color: #CCC; border-top-style: solid; border-top-width: 3px; border-left-color: #CCC; border-left-style: solid; border-left-width: 3px; border-right-color: #CCC; border-right-style: solid; border-right-width: 3px; border-bottom-color: #CCC; border-bottom-style: solid; border-bottom-width: 3px;font-size: 14px;">
+    <span style="line-height: 16.8px;">Book A Call</span>
+  </a>
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_3" class="u_row v-row-padding" style="padding: 0px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_4" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_1" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px 10px 20px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 36px; font-weight: 700;">Supercharge Your Hosting Business with White-Label  Email Marketing!</h1>
+
+  </div>
+
+  <div id="u_content_html_3" class="u_content_html v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    <div><h1 style="font-size: 36px; text-align: center;  ">Supercharge Your Hosting Business with <span style="background-color: white; color: #282B28;">White-Label</span> Email Marketing</h1>
+
+   
+
+
+</div>
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_1" class="u_row v-row-padding" style="padding: 0px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_1" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_2" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 20px; font-weight: 400;">Elevate Your Service Portfolio, Boost Revenue,  <br />and Retain More Customers</h1>
+
+  </div>
+
+  <div id="u_content_image_2" class="u_content_image v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px 10px 0px;">
+    
+<div class="v-text-align" style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/187234/1697546729552-Img-01.png" style="width: 100%;max-width: 4000px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_18" class="u_row v-row-padding" style="padding: 0px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_41" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:80px 0px 60px;">
+    
+  <div id="u_content_heading_3" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 36px; font-weight: 700;">Benefits for your hosting business</h1>
+
+  </div>
+
+  <div id="u_content_heading_4" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 20px; font-weight: 400;">Unlock new revenue streams</h1>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_4" class="u_row v-row-padding" style="padding: 0px 0px 60px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row" style="align-items: center;">
+        
+<div id="u_column_5" class="u-col u-col-33p33 u_column" style="display:flex;align-items:center;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:10px;">
+    
+  <div id="u_content_heading_5" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 0px 0px 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;">Seamless Integration:</h1>
+
+  </div>
+
+  <div id="u_content_text_1" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 14px; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">Easily incorporate white-labeled email marketing services into your hosting platform.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_6" class="u-col u-col-33p33 u_column" style="display:flex;align-items:center;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:10px;">
+    
+  <div id="u_content_heading_6" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 0px 0px 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;">Brand Consistency:</h1>
+
+  </div>
+
+  <div id="u_content_text_2" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 14px; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">Maintain a unified brand experience with a fully white-labeled solution.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_7" class="u-col u-col-33p33 u_column" style="display:flex;align-items:center;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:10px;">
+    
+  <div id="u_content_heading_7" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 0px 0px 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;">Revenue Growth:</h1>
+
+  </div>
+
+  <div id="u_content_text_3" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 14px; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">Customize pricing and subscription plans to take control of your earnings.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_6" class="u_row v-row-padding" style="padding: 0px 0px 100px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_9" class="u-col u-col-33p33 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_14" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 0px 0px 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;">Customer Retention:</h1>
+
+  </div>
+
+  <div id="u_content_text_8" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 14px; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">Provide added value to reduce customer churn.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_10" class="u-col u-col-33p33 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_9" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 0px 0px 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;">Competitive Edge:</h1>
+
+  </div>
+
+  <div id="u_content_text_5" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 14px; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">Stand out in the market with a comprehensive package.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_11" class="u-col u-col-33p33 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_7" class="u_row v-row-padding" style="padding: 0px 0px 80px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_12" class="u-col u-col-50 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_11" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 48px; font-weight: 700;">BENEFITS FOR <br />YOUR USERS</h1>
+
+  </div>
+
+  <div id="u_content_heading_12" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 18px; font-weight: 400;">Enhance Your Customer’s Experience</h1>
+
+  </div>
+
+  <div id="u_content_html_4" class="u_content_html v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    <div><span style="background-color: white; color: #282B28; font-size: 18px;">Enhance Your Customer’s Experience</span></div>
+  </div>
+
+  <div id="u_content_heading_13" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 18px; font-weight: 400;">All-in-one solution:</h1>
+
+  </div>
+
+  <div id="u_content_text_7" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 19px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Make your platform a one-stop-shop</p>
+<p style="line-height: 140%;">for web services.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_13" class="u-col u-col-50 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_8" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 18px; font-weight: 400;"><span style="text-decoration: underline;">Efficient Growth:</span></h1>
+
+  </div>
+
+  <div id="u_content_text_4" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px 10px 30px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 18px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Empower your users to reach their customers directly through email campaigns, streamlining their marketing efforts.</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_heading_17" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 18px; font-weight: 400;"><span style="text-decoration: underline;">User Engagement:</span></h1>
+
+  </div>
+
+  <div id="u_content_text_11" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px 10px 30px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 18px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Boost user engagement by providing a vital marketing tool.</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_heading_16" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 18px; font-weight: 400;"><span style="text-decoration: underline;">Brand Building:</span></h1>
+
+  </div>
+
+  <div id="u_content_text_10" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px 10px 30px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 18px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Help users strengthen their brand and customer relationships</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_heading_15" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 18px; font-weight: 400;"><span style="text-decoration: underline;">Growth Potential:</span></h1>
+
+  </div>
+
+  <div id="u_content_text_9" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 18px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Enable business expansion through email marketing success.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_8" class="u_row v-row-padding" style="background-color: #f4f2e9; padding: 80px 0px 0px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_14" class="u-col u-col-50 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_18" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; color: #000000; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 60px; font-weight: 700;">Why email <br />marketing<br />matters</h1>
+
+  </div>
+
+  <div id="u_content_html_5" class="u_content_html v-container-padding-padding" style="overflow-wrap: break-word;padding: 0px;">
+    <div><h1 style="font-size: 60px; color: #282B28;">Why email marketing <span style="background-color: #282B28; color: #fff;">matters</span></h1></div>
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_15" class="u-col u-col-50 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_19" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; color: #000000; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 24px; font-weight: 700;">Elevate user success</h1>
+
+  </div>
+
+  <div id="u_content_text_12" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 18px; color: #000000; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">In today's digital landscape, email marketing is a cornerstone of business success. It's the key to engaging, retaining, and growing your customer base.</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_text_13" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 18px; color: #000000; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">By offering white-label email marketing, you empower your users with a frictionless way to try this invaluable tool. They can easily explore the world of email marketing without leaving your platform.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_10" class="u_row v-row-padding" style="background-color: #f4f2e9; padding: 0px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_17" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:40px 0px;">
+    
+  <div id="u_content_image_3" class="u_content_image v-container-padding-padding" style="overflow-wrap: break-word;padding: 40px 10px;">
+    
+<div class="v-text-align" style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/187234/1697547969362-IMG-02.png" style="width: 100%;max-width: 4000px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_9" class="u_row v-row-padding" style="background-color: #f4f2e9; padding: 0px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_16" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_20" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px 10px 20px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; color: #000000; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 36px; font-weight: 700;">FunnelHQ was crafted by expert marketers  who have been in your shoes.</h1>
+
+  </div>
+
+  <div id="u_content_heading_21" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px 10px 30px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; color: #000000; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;">We've used every tool out there and understand the pain points.</h1>
+
+  </div>
+
+  <div id="u_content_text_14" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 16px; color: #000000; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">That's why we built the perfect tool that offers not only the best and most important features but also makes them incredibly easy to use for both beginners and experts like us.</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_image_4" class="u_content_image v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px 10px 0px;">
+    
+<div class="v-text-align" style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/187234/1697548211115-IMG-03.png" style="width: 100%;max-width: 4000px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_11" class="u_row v-row-padding" style="padding: 80px 0px 60px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_18" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_22" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 42px; font-weight: 700;">YOUR HOSTING <br />YOUR RULES</h1>
+
+  </div>
+
+  <div id="u_content_html_6" class="u_content_html v-container-padding-padding" style="overflow-wrap: break-word;padding: 0px;">
+    <div><h1 style="font-size: 42px; ">YOUR HOSTING <br><span style="background-color: white; color: #282B28;">YOUR RULES</span></h1>
+
+   
+
+
+</div>
+  </div>
+
+  <div id="u_content_heading_23" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 22px; font-weight: 400;">Key Features of White-Label Partnership</h1>
+
+  </div>
+
+  <div id="u_content_html_7" class="u_content_html v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    <div><span style="background-color: white; color: #282B28; font-size: 22px"> Key Features of White-Label Partnership </span></h1></div>
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_12" class="u_row v-row-padding" style="padding: 0px 0px 40px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_19" class="u-col u-col-6p25 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_6" class="u_content_image v-container-padding-padding hide-mobile" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div class="v-text-align" style="position:relative;line-height:0px;text-align:left">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/187234/1697548549413-Check-01.png" style="width: 100%;max-width: 100%;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_20" class="u-col u-col-43p75 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_24" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 22px; font-weight: 400;">Sub-Accounts</h1>
+
+  </div>
+
+  <div id="u_content_text_15" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Offer sub-accounts charged out at your discretion, giving you full control.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_22" class="u-col u-col-6p25 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_5" class="u_content_image v-container-padding-padding hide-mobile" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div class="v-text-align" style="position:relative;line-height:0px;text-align:left">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/187234/1697548549413-Check-01.png" style="width: 100%;max-width: 100%;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_23" class="u-col u-col-43p75 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_25" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 22px; font-weight: 400;">Full Rebranding</h1>
+
+  </div>
+
+  <div id="u_content_text_16" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">A fully rebranded front-end and URL to match and maintain brand cohesion.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_17" class="u_row v-row-padding" style="padding: 0px 0px 40px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_37" class="u-col u-col-6p25 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_14" class="u_content_image v-container-padding-padding hide-mobile" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div class="v-text-align" style="position:relative;line-height:0px;text-align:left">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/187234/1697548549413-Check-01.png" style="width: 100%;max-width: 100%;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_38" class="u-col u-col-43p75 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_33" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 22px; font-weight: 400;">Full White Glove Onboarding &amp; Support</h1>
+
+  </div>
+
+  <div id="u_content_text_24" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">We're here to guide you every step of the way.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_39" class="u-col u-col-6p25 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_15" class="u_content_image v-container-padding-padding hide-mobile" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div class="v-text-align" style="position:relative;line-height:0px;text-align:left">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/187234/1697548549413-Check-01.png" style="width: 100%;max-width: 100%;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_40" class="u-col u-col-43p75 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_34" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 22px; font-weight: 400;">Large-Scale Capacity</h1>
+
+  </div>
+
+  <div id="u_content_text_25" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">We're committed to helping you reach your highest potential.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_16" class="u_row v-row-padding" style="padding: 0px 0px 60px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_33" class="u-col u-col-6p25 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_12" class="u_content_image v-container-padding-padding hide-mobile" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div class="v-text-align" style="position:relative;line-height:0px;text-align:left">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/187234/1697548549413-Check-01.png" style="width: 100%;max-width: 100%;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_34" class="u-col u-col-43p75 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_31" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 22px; font-weight: 400;">Custom Integrations</h1>
+
+  </div>
+
+  <div id="u_content_text_22" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Tailor the solution to your market's  unique needs.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_35" class="u-col u-col-6p25 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  </div>
+</div>
+
+<div id="u_column_36" class="u-col u-col-43p75 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_15" class="u_row v-row-padding" style="padding: 0px;">
+    <div class="container" style="max-width: 800px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_32" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_heading_30" class="u_content_heading v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px 10px 20px;">
+    
+  <h1 class="v-text-align v-font-size" style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;">Don't miss out on the opportunity to supercharge <br />your hosting business.</h1>
+
+  </div>
+
+  <div id="u_content_html_8" class="u_content_html v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    <div><h1 style="font-size: 22px; font-weight: 400; text-align: center;  ">Don't miss out on the opportunity to <span style="background-color: white; color: #282B28;">supercharge</span> <br> your hosting business,</h1>
+
+   
+
+
+</div>
+  </div>
+
+  <div id="u_content_text_21" class="u_content_text v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px 10px 20px;">
+    
+  <div class="v-text-align v-font-size" style="font-size: 14px; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">Join our white-label email marketing partnership today.</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_button_3" class="u_content_button v-container-padding-padding" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div class="v-text-align" style="text-align: center;">
+  <a href="" target="_blank" class="v-font-size" style="color:#FFFFFF;background-color:transparent;border-radius: 0px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;border-top-color: #CCC; border-top-style: solid; border-top-width: 3px; border-left-color: #CCC; border-left-style: solid; border-left-width: 3px; border-right-color: #CCC; border-right-style: solid; border-right-width: 3px; border-bottom-color: #CCC; border-bottom-style: solid; border-bottom-width: 3px;font-size: 14px;">
+    <span style="line-height: 16.8px;">Book A Call</span>
+  </a>
+</div>
+
+  </div>
+
+  <div id="u_content_image_11" class="u_content_image v-container-padding-padding" style="overflow-wrap: break-word;padding: 80px 10px 30px;">
+    
+<div class="v-text-align" style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://assets.unlayer.com/projects/187234/1697546342903-logo.png" style="width: 17%;max-width: 17%;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  </body>
+</html>

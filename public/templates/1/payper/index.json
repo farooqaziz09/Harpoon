@@ -1,0 +1,2870 @@
+{
+    "counters": {
+        "u_row": 12,
+        "u_column": 20,
+        "u_content_text": 10,
+        "u_content_image": 16,
+        "u_content_button": 10,
+        "u_content_social": 1,
+        "u_content_divider": 3,
+        "u_content_heading": 19,
+        "u_content_mailmunch#form": 2
+    },
+    "body": {
+        "id": "vtvsFLs54Q",
+        "rows": [{
+            "id": "l6BKKVTpMN",
+            "cells": [1],
+            "columns": [{
+                "id": "SFZws6Em4Y",
+                "contents": [{
+                    "id": "YqFDhY5MTp",
+                    "type": "image",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "src": {
+                            "url": "https://a.mailmunch.co/user_data/landing_pages/1689173019175-Logos%20PPH-1.png",
+                            "width": 4244,
+                            "height": 1343,
+                            "maxWidth": "45%",
+                            "autoWidth": false
+                        },
+                        "textAlign": "center",
+                        "altText": "",
+                        "action": {
+                            "name": "web",
+                            "values": {
+                                "href": "https://payperhead.com/",
+                                "target": "_blank"
+                            },
+                            "attrs": {
+                                "href": "{{href}}",
+                                "target": "{{target}}"
+                            }
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_image_3",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "_override": {
+                            "mobile": {
+                                "src": {
+                                    "maxWidth": "60%",
+                                    "autoWidth": false
+                                }
+                            }
+                        }
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_16",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "0px",
+                    "borderRadius": "0px",
+                    "backgroundColor": ""
+                }
+            }],
+            "values": {
+                "displayCondition": null,
+                "columns": false,
+                "backgroundColor": "#ffffff",
+                "columnsBackgroundColor": "#ffffff",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": "no-repeat",
+                    "size": "custom",
+                    "position": "center"
+                },
+                "padding": "0px",
+                "anchor": "",
+                "hideDesktop": false,
+                "_meta": {
+                    "htmlID": "u_row_10",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "duplicatable": true,
+                "deletable": true,
+                "hideable": true
+            }
+        }, {
+            "id": "j3hp0YXNoz",
+            "cells": [1],
+            "columns": [{
+                "id": "azumQgpk-6",
+                "contents": [{
+                    "id": "Tc0pwyKyc0",
+                    "type": "image",
+                    "values": {
+                        "containerPadding": "0px",
+                        "anchor": "",
+                        "src": {
+                            "url": "https://a.mailmunch.co/user_data/landing_pages/1689172399724-PPH-Refresh-1.jpeg",
+                            "width": 1142,
+                            "height": 600,
+                            "id": 14809835,
+                            "preview": {
+                                "url": "https://a.mailmunch.co/user_data/landing_pages/1689172399724-PPH-Refresh-1.jpeg",
+                                "width": 1142,
+                                "height": 600
+                            },
+                            "maxWidth": "100%",
+                            "autoWidth": false
+                        },
+                        "textAlign": "center",
+                        "altText": "",
+                        "action": {
+                            "name": "web",
+                            "values": {
+                                "href": "",
+                                "target": "_blank"
+                            }
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_image_2",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "_override": {
+                            "mobile": {
+                                "src": {
+                                    "id": 14809835,
+                                    "preview": {
+                                        "url": "https://a.mailmunch.co/user_data/landing_pages/1689172399724-PPH-Refresh-1.jpeg",
+                                        "width": 1142,
+                                        "height": 600
+                                    },
+                                    "maxWidth": "100%",
+                                    "autoWidth": false
+                                }
+                            }
+                        }
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_1",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "0px",
+                    "_override": {
+                        "mobile": {
+                            "padding": "0px"
+                        }
+                    },
+                    "backgroundColor": "#ffffff"
+                }
+            }],
+            "values": {
+                "displayCondition": null,
+                "columns": false,
+                "backgroundColor": "#045eaa",
+                "columnsBackgroundColor": "#ffffff",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": "no-repeat",
+                    "size": "custom",
+                    "position": "center"
+                },
+                "padding": "0px",
+                "anchor": "",
+                "hideDesktop": false,
+                "_meta": {
+                    "htmlID": "u_row_1",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "duplicatable": true,
+                "deletable": true,
+                "hideable": true,
+                "_override": {
+                    "mobile": {
+                        "padding": "0px"
+                    }
+                }
+            }
+        }, {
+            "id": "JsDr1juv4j",
+            "cells": [1],
+            "columns": [{
+                "id": "p5YfXM4hVZ",
+                "contents": [{
+                    "id": "uU7g1IfWjS",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h1",
+                        "fontWeight": 700,
+                        "fontSize": "28px",
+                        "color": "#fe6847",
+                        "textAlign": "center",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_19",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<em>PAYPERHEAD BOOKIE SOFTWARE</em>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "22px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "g6WXuYOQqE",
+                    "type": "text",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "fontSize": "14px",
+                        "textAlign": "center",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_text_2",
+                            "htmlClassNames": "u_content_text"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<p style=\"line-height: 140%;\">We’re revolutionizing the pay per head industry. Our bookie software stays ahead of the pack because we design our own software. It’s not based on third-party software, which means we can create what works best for you the agent.</p>\n<p style=\"line-height: 140%;\">We’ve created the ultimate software package which includes an extraordinary experience for your players, making it easier for you to make more money.</p>"
+                    }
+                }, {
+                    "id": "_laST8zSod",
+                    "type": "button",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "href": {
+                            "name": "web",
+                            "values": {
+                                "href": "https://payperhead.com/",
+                                "target": "_blank"
+                            },
+                            "attrs": {
+                                "href": "{{href}}",
+                                "target": "{{target}}"
+                            }
+                        },
+                        "buttonColors": {
+                            "color": "#FFFFFF",
+                            "backgroundColor": "#f35936",
+                            "hoverColor": "#FFFFFF",
+                            "hoverBackgroundColor": "#f35936"
+                        },
+                        "size": {
+                            "autoWidth": true,
+                            "width": "100%"
+                        },
+                        "fontWeight": 700,
+                        "fontSize": "16px",
+                        "textAlign": "center",
+                        "lineHeight": "120%",
+                        "padding": "10px 20px",
+                        "border": {},
+                        "borderRadius": "4px",
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_button_10",
+                            "htmlClassNames": "u_content_button"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<span style=\"line-height: 19.2px;\">LEARN MORE</span>",
+                        "calculatedWidth": 144,
+                        "calculatedHeight": 39
+                    }
+                }, {
+                    "id": "6ubYC8uW9i",
+                    "type": "image",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "src": {
+                            "url": "https://a.mailmunch.co/user_data/landing_pages/1689251562520-new-sbpage-img-3-1.png",
+                            "width": 476,
+                            "height": 358,
+                            "maxWidth": "60%",
+                            "autoWidth": false
+                        },
+                        "textAlign": "center",
+                        "altText": "",
+                        "action": {
+                            "name": "web",
+                            "values": {
+                                "href": "",
+                                "target": "_blank"
+                            }
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_image_7",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true
+                    }
+                }, {
+                    "id": "fGZx0Vhq2x",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h1",
+                        "fontWeight": 700,
+                        "fontSize": "28px",
+                        "color": "#fe6847",
+                        "textAlign": "center",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_2",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<em>Here is your Heading</em>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "22px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "zFhhZc_qf0",
+                    "type": "mailmunch#form",
+                    "values": {
+                        "displayCondition": null,
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "_meta": {
+                            "htmlID": "u_content_mailmunch#form_1",
+                            "htmlClassNames": "u_content_mailmunch#form"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "fields": [{
+                            "name": "email",
+                            "type": "email",
+                            "label": "Email",
+                            "width": 2,
+                            "options": [],
+                            "required": true,
+                            "meta_data": {},
+                            "placeholder_text": "Enter email here"
+                        }, {
+                            "name": "first_name",
+                            "type": "text",
+                            "label": "First Name",
+                            "width": 2,
+                            "options": "",
+                            "required": false,
+                            "meta_data": {},
+                            "show_label": false,
+                            "placeholder_text": "Enter first name"
+                        }, {
+                            "name": "phone",
+                            "type": "text",
+                            "label": "Phone",
+                            "width": 2,
+                            "options": "",
+                            "required": false,
+                            "meta_data": {},
+                            "show_label": false,
+                            "placeholder_text": "Enter phone number"
+                        }],
+                        "_override": {
+                            "mobile": {
+                                "formWidth": {
+                                    "width": "100%",
+                                    "autoWidth": false,
+                                    "fullWidthOnMobile": false
+                                }
+                            }
+                        },
+                        "formAlign": "center",
+                        "formWidth": {
+                            "width": "65%",
+                            "autoWidth": false,
+                            "fullWidthOnMobile": false
+                        },
+                        "buttonText": "SIGN UP NOW",
+                        "fieldColor": "#000",
+                        "fieldWidth": "100%",
+                        "labelAlign": "left",
+                        "labelColor": "#022343",
+                        "buttonAlign": "center",
+                        "buttonWidth": {
+                            "width": "100%",
+                            "autoWidth": false,
+                            "fullWidthOnMobile": false
+                        },
+                        "fieldBorder": {
+                            "borderTopColor": "#022343",
+                            "borderTopStyle": "solid",
+                            "borderTopWidth": "1px",
+                            "borderLeftColor": "#022343",
+                            "borderLeftStyle": "solid",
+                            "borderLeftWidth": "1px",
+                            "borderRightColor": "#022343",
+                            "borderRightStyle": "solid",
+                            "borderRightWidth": "1px",
+                            "borderBottomColor": "#022343",
+                            "borderBottomStyle": "solid",
+                            "borderBottomWidth": "1px"
+                        },
+                        "buttonBorder": {},
+                        "buttonColors": {
+                            "color": "#FFF",
+                            "hoverColor": "#FFF",
+                            "backgroundColor": "#f35936",
+                            "hoverBackgroundColor": "#f35936"
+                        },
+                        "buttonMargin": "5px 0px 0px",
+                        "fieldPadding": "10px",
+                        "labelPadding": "0px 0px 4px",
+                        "buttonPadding": "10px",
+                        "fieldDistance": "10px",
+                        "fieldFontSize": "12px",
+                        "labelFontSize": "14px",
+                        "buttonFontSize": "16px",
+                        "formLayoutType": "standard",
+                        "fieldFontFamily": {
+                            "label": "Arial",
+                            "value": "arial,helvetica,sans-serif"
+                        },
+                        "labelFontFamily": {
+                            "label": "Arial",
+                            "value": "arial,helvetica,sans-serif"
+                        },
+                        "buttonFontFamily": {
+                            "label": "Arial",
+                            "value": "arial,helvetica,sans-serif"
+                        },
+                        "fieldBorderRadius": "4px",
+                        "buttonBorderRadius": "4px",
+                        "fieldBackgroundColor": "#FFF"
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_14",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "30px 0px",
+                    "borderRadius": "0px",
+                    "backgroundColor": ""
+                }
+            }],
+            "values": {
+                "displayCondition": null,
+                "columns": false,
+                "backgroundColor": "#ffffff",
+                "columnsBackgroundColor": "",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": "no-repeat",
+                    "size": "custom",
+                    "position": "center"
+                },
+                "padding": "0px",
+                "anchor": "",
+                "hideDesktop": false,
+                "_meta": {
+                    "htmlID": "u_row_8",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "duplicatable": true,
+                "deletable": true,
+                "hideable": true
+            }
+        }, {
+            "id": "rntQAQBuHc",
+            "cells": [1, 1],
+            "columns": [{
+                "id": "a6SJBWYVNm",
+                "contents": [{
+                    "id": "CQk8Akl0-m",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h1",
+                        "fontWeight": 700,
+                        "fontSize": "64px",
+                        "color": "#ffffff",
+                        "textAlign": "left",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_6",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "1",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "48px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "_H3rOOpRgP",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h2",
+                        "fontWeight": 700,
+                        "fontSize": "18px",
+                        "color": "#ffffff",
+                        "textAlign": "left",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_7",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "MOVE PLAYERS FAST &amp; EASY",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "16px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "tJeWmL9IS7",
+                    "type": "text",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "fontSize": "14px",
+                        "color": "#ffffff",
+                        "textAlign": "left",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_text_3",
+                            "htmlClassNames": "u_content_text"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<p style=\"line-height: 140%;\">With just one call, we can get your players transferred over to the best bookie software on the net. We’ve been transferring people over for decades, so you can be confident in our ability to seamlessly and quickly get you onboard with PayPerHead.</p>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "13px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "U6KCw9G_MC",
+                    "type": "button",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "href": {
+                            "name": "web",
+                            "values": {
+                                "href": "https://payperhead.com/premium-online-casino/",
+                                "target": "_blank"
+                            },
+                            "attrs": {
+                                "href": "{{href}}",
+                                "target": "{{target}}"
+                            }
+                        },
+                        "buttonColors": {
+                            "color": "#FFFFFF",
+                            "backgroundColor": "transparent",
+                            "hoverColor": "#FFFFFF",
+                            "hoverBackgroundColor": "transparent"
+                        },
+                        "size": {
+                            "autoWidth": true,
+                            "width": "100%"
+                        },
+                        "fontWeight": 700,
+                        "fontSize": "16px",
+                        "textAlign": "left",
+                        "lineHeight": "120%",
+                        "padding": "10px 20px",
+                        "border": {
+                            "borderTopColor": "#f35936",
+                            "borderTopStyle": "solid",
+                            "borderTopWidth": "3px",
+                            "borderLeftColor": "#f35936",
+                            "borderLeftStyle": "solid",
+                            "borderLeftWidth": "3px",
+                            "borderRightColor": "#f35936",
+                            "borderRightStyle": "solid",
+                            "borderRightWidth": "3px",
+                            "borderBottomColor": "#f35936",
+                            "borderBottomStyle": "solid",
+                            "borderBottomWidth": "3px"
+                        },
+                        "borderRadius": "4px",
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_button_5",
+                            "htmlClassNames": "u_content_button"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<span style=\"line-height: 19.2px;\">LEARN MORE</span>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "14px"
+                            }
+                        },
+                        "calculatedWidth": 144,
+                        "calculatedHeight": 39
+                    }
+                }, {
+                    "id": "pICPv1dXNm",
+                    "type": "image",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "src": {
+                            "url": "https://a.mailmunch.co/user_data/landing_pages/1689193831334-ss-basketball-top-right-removebg-preview.png",
+                            "width": 452,
+                            "height": 391,
+                            "maxWidth": "62%",
+                            "autoWidth": false
+                        },
+                        "textAlign": "left",
+                        "altText": "",
+                        "action": {
+                            "name": "web",
+                            "values": {
+                                "href": "",
+                                "target": "_blank"
+                            }
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_image_8",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_5",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "10px 10px 20px",
+                    "_override": {
+                        "mobile": {
+                            "padding": "10px 10px 20px"
+                        }
+                    },
+                    "borderRadius": "0px",
+                    "backgroundColor": "#0062b3"
+                }
+            }, {
+                "id": "3rkyUyjQpk",
+                "contents": [{
+                    "id": "-asu7K8S1z",
+                    "type": "image",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "src": {
+                            "url": "https://a.mailmunch.co/user_data/landing_pages/1689193990307-esports-betting-platform-removebg-preview.png",
+                            "width": 503,
+                            "height": 293,
+                            "maxWidth": "78%",
+                            "autoWidth": false
+                        },
+                        "textAlign": "right",
+                        "altText": "",
+                        "action": {
+                            "name": "web",
+                            "values": {
+                                "href": "",
+                                "target": "_blank"
+                            }
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_image_9",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true
+                    }
+                }, {
+                    "id": "WSBonj6k2e",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h1",
+                        "fontWeight": 700,
+                        "fontSize": "64px",
+                        "color": "#0062b3",
+                        "textAlign": "right",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_3",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "2",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "48px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "T2M5P4CwaE",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h2",
+                        "fontWeight": 700,
+                        "fontSize": "18px",
+                        "color": "#000000",
+                        "textAlign": "right",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_5",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "SPORTSBOOK SOFTWARE",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "16px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "Cn28QxhNjr",
+                    "type": "text",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "fontSize": "14px",
+                        "color": "#000000",
+                        "textAlign": "right",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_text_1",
+                            "htmlClassNames": "u_content_text"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<p style=\"line-height: 140%;\">We’ve developed our unique software to keep your players glued to your website for great entertainment and easy betting. We provide a huge collection of casino and sports action to bet on that rivals any book out there. Isn’t that the name of the game?</p>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "13px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "oGZXRUmcS7",
+                    "type": "button",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "href": {
+                            "name": "web",
+                            "values": {
+                                "href": "https://payperhead.com/sportsbook-software/",
+                                "target": "_blank"
+                            },
+                            "attrs": {
+                                "href": "{{href}}",
+                                "target": "{{target}}"
+                            }
+                        },
+                        "buttonColors": {
+                            "color": "#000000",
+                            "backgroundColor": "transparent",
+                            "hoverColor": "#FFFFFF",
+                            "hoverBackgroundColor": "transparent"
+                        },
+                        "size": {
+                            "autoWidth": true,
+                            "width": "100%"
+                        },
+                        "fontWeight": 700,
+                        "fontSize": "16px",
+                        "textAlign": "right",
+                        "lineHeight": "120%",
+                        "padding": "10px 20px",
+                        "border": {
+                            "borderTopColor": "#0062b3",
+                            "borderTopStyle": "solid",
+                            "borderTopWidth": "3px",
+                            "borderLeftColor": "#0062b3",
+                            "borderLeftStyle": "solid",
+                            "borderLeftWidth": "3px",
+                            "borderRightColor": "#0062b3",
+                            "borderRightStyle": "solid",
+                            "borderRightWidth": "3px",
+                            "borderBottomColor": "#0062b3",
+                            "borderBottomStyle": "solid",
+                            "borderBottomWidth": "3px"
+                        },
+                        "borderRadius": "4px",
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_button_3",
+                            "htmlClassNames": "u_content_button"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<span style=\"line-height: 19.2px;\">LEARN MORE</span>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "14px"
+                            }
+                        },
+                        "calculatedWidth": 144,
+                        "calculatedHeight": 39
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_6",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "10px 10px 20px",
+                    "_override": {
+                        "mobile": {
+                            "padding": "10px 10px 20px"
+                        }
+                    },
+                    "borderRadius": "0px",
+                    "backgroundColor": ""
+                }
+            }],
+            "values": {
+                "displayCondition": null,
+                "columns": false,
+                "backgroundColor": "#ffffff",
+                "columnsBackgroundColor": "",
+                "alignItems": "center",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": "no-repeat",
+                    "size": "custom",
+                    "position": "center"
+                },
+                "padding": "0px",
+                "anchor": "",
+                "hideDesktop": false,
+                "_meta": {
+                    "htmlID": "u_row_3",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "duplicatable": true,
+                "deletable": true,
+                "hideable": true
+            }
+        }, {
+            "id": "P3myBVB8tq",
+            "cells": [1, 1],
+            "columns": [{
+                "id": "Ir6cC-PflH",
+                "contents": [{
+                    "id": "4V2kLwhzM8",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h1",
+                        "fontWeight": 700,
+                        "fontSize": "64px",
+                        "color": "#0062b3",
+                        "textAlign": "left",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_8",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "3",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "48px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "4F5I-a28dt",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h2",
+                        "fontWeight": 700,
+                        "fontSize": "18px",
+                        "color": "#000000",
+                        "textAlign": "left",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_9",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "PAY AND COLLECT ONLINE",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "16px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "7cKU6Ikrjy",
+                    "type": "text",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "fontSize": "14px",
+                        "color": "#000000",
+                        "textAlign": "left",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_text_4",
+                            "htmlClassNames": "u_content_text"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<p style=\"line-height: 140%;\">You can accept a variety of payments from your players, online. It’s so easy that you can simply use your phone, anywhere in the world. No need to meet with your players for payments ever again. No one else has this solution available.</p>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "13px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "KdTEx4ESrv",
+                    "type": "button",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "href": {
+                            "name": "web",
+                            "values": {
+                                "href": "https://payperhead.com/agent-payment-solution/",
+                                "target": "_blank"
+                            },
+                            "attrs": {
+                                "href": "{{href}}",
+                                "target": "{{target}}"
+                            }
+                        },
+                        "buttonColors": {
+                            "color": "#000000",
+                            "backgroundColor": "transparent",
+                            "hoverColor": "#FFFFFF",
+                            "hoverBackgroundColor": "transparent"
+                        },
+                        "size": {
+                            "autoWidth": true,
+                            "width": "100%"
+                        },
+                        "fontWeight": 700,
+                        "fontSize": "16px",
+                        "textAlign": "left",
+                        "lineHeight": "120%",
+                        "padding": "10px 20px",
+                        "border": {
+                            "borderTopColor": "#0062b3",
+                            "borderTopStyle": "solid",
+                            "borderTopWidth": "3px",
+                            "borderLeftColor": "#0062b3",
+                            "borderLeftStyle": "solid",
+                            "borderLeftWidth": "3px",
+                            "borderRightColor": "#0062b3",
+                            "borderRightStyle": "solid",
+                            "borderRightWidth": "3px",
+                            "borderBottomColor": "#0062b3",
+                            "borderBottomStyle": "solid",
+                            "borderBottomWidth": "3px"
+                        },
+                        "borderRadius": "4px",
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_button_6",
+                            "htmlClassNames": "u_content_button"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<span style=\"line-height: 19.2px;\">LEARN MORE</span>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "14px"
+                            }
+                        },
+                        "calculatedWidth": 144,
+                        "calculatedHeight": 39
+                    }
+                }, {
+                    "id": "GjYQ2iQhWk",
+                    "type": "image",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "src": {
+                            "url": "https://a.mailmunch.co/user_data/landing_pages/1689194088465-aps-cards-removebg-preview.png",
+                            "width": 466,
+                            "height": 252,
+                            "maxWidth": "62%",
+                            "autoWidth": false
+                        },
+                        "textAlign": "left",
+                        "altText": "",
+                        "action": {
+                            "name": "web",
+                            "values": {
+                                "href": "",
+                                "target": "_blank"
+                            }
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_image_11",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_7",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "10px 10px 20px",
+                    "_override": {
+                        "mobile": {
+                            "padding": "10px 10px 20px"
+                        }
+                    },
+                    "borderRadius": "0px",
+                    "backgroundColor": "#ffffff"
+                }
+            }, {
+                "id": "bOZx01w4Ak",
+                "contents": [{
+                    "id": "NBhLRPjTTc",
+                    "type": "image",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "src": {
+                            "url": "https://a.mailmunch.co/user_data/landing_pages/1689194229288-premium-playdevices-removebg-preview.png",
+                            "width": 627,
+                            "height": 359,
+                            "maxWidth": "51%",
+                            "autoWidth": false
+                        },
+                        "textAlign": "right",
+                        "altText": "",
+                        "action": {
+                            "name": "web",
+                            "values": {
+                                "href": "",
+                                "target": "_blank"
+                            }
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_image_10",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true
+                    }
+                }, {
+                    "id": "NWERrkRe95",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h1",
+                        "fontWeight": 700,
+                        "fontSize": "64px",
+                        "color": "#ffffff",
+                        "textAlign": "right",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_10",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "4",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "48px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "7zL9x0parW",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h2",
+                        "fontWeight": 700,
+                        "fontSize": "18px",
+                        "color": "#ffffff",
+                        "textAlign": "right",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_11",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "LIVE DEALERS &amp; PREMIUM CASINO",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "16px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "eMV6VPOkyU",
+                    "type": "text",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "fontSize": "14px",
+                        "color": "#ffffff",
+                        "textAlign": "right",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_text_5",
+                            "htmlClassNames": "u_content_text"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<p style=\"line-height: 140%;\">We offer multiple dealers playing the most popular casino games including blackjack, roulette, and baccarat. Premium Casino includes hundreds of well-known titles and 3D games. Agents see a 15% increase in revenue when they offer our premium casino.</p>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "13px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "GOK8d-oeX3",
+                    "type": "button",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "href": {
+                            "name": "web",
+                            "values": {
+                                "href": "https://payperhead.com/premium-online-casino/",
+                                "target": "_blank"
+                            },
+                            "attrs": {
+                                "href": "{{href}}",
+                                "target": "{{target}}"
+                            }
+                        },
+                        "buttonColors": {
+                            "color": "#FFFFFF",
+                            "backgroundColor": "transparent",
+                            "hoverColor": "#FFFFFF",
+                            "hoverBackgroundColor": "transparent"
+                        },
+                        "size": {
+                            "autoWidth": true,
+                            "width": "100%"
+                        },
+                        "fontWeight": 700,
+                        "fontSize": "16px",
+                        "textAlign": "right",
+                        "lineHeight": "120%",
+                        "padding": "10px 20px",
+                        "border": {
+                            "borderTopColor": "#f35936",
+                            "borderTopStyle": "solid",
+                            "borderTopWidth": "3px",
+                            "borderLeftColor": "#f35936",
+                            "borderLeftStyle": "solid",
+                            "borderLeftWidth": "3px",
+                            "borderRightColor": "#f35936",
+                            "borderRightStyle": "solid",
+                            "borderRightWidth": "3px",
+                            "borderBottomColor": "#f35936",
+                            "borderBottomStyle": "solid",
+                            "borderBottomWidth": "3px"
+                        },
+                        "borderRadius": "4px",
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_button_7",
+                            "htmlClassNames": "u_content_button"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<span style=\"line-height: 19.2px;\">LEARN MORE</span>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "14px"
+                            }
+                        },
+                        "calculatedWidth": 144,
+                        "calculatedHeight": 39
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_8",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "10px 10px 20px",
+                    "_override": {
+                        "mobile": {
+                            "padding": "10px 10px 20px"
+                        }
+                    },
+                    "borderRadius": "0px",
+                    "backgroundColor": "#0062b3"
+                }
+            }],
+            "values": {
+                "displayCondition": null,
+                "columns": false,
+                "backgroundColor": "#ffffff",
+                "columnsBackgroundColor": "#0062b3",
+                "alignItems": "center",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": "no-repeat",
+                    "size": "custom",
+                    "position": "center"
+                },
+                "padding": "0px",
+                "anchor": "",
+                "hideDesktop": false,
+                "_meta": {
+                    "htmlID": "u_row_4",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "duplicatable": true,
+                "deletable": true,
+                "hideable": true
+            }
+        }, {
+            "id": "DpZw-6HFL_",
+            "cells": [1, 1],
+            "columns": [{
+                "id": "GqLbwMt-Oj",
+                "contents": [{
+                    "id": "-Ej15BAAq0",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h1",
+                        "fontWeight": 700,
+                        "fontSize": "64px",
+                        "color": "#ffffff",
+                        "textAlign": "left",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_12",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "5",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "48px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "6d_GxXRefd",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h2",
+                        "fontWeight": 700,
+                        "fontSize": "18px",
+                        "color": "#ffffff",
+                        "textAlign": "left",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_17",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "EASILY FUND YOUR ACCOUNT",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "16px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "be0YWqKdxk",
+                    "type": "text",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "fontSize": "14px",
+                        "color": "#ffffff",
+                        "textAlign": "left",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_text_8",
+                            "htmlClassNames": "u_content_text"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<p style=\"line-height: 140%;\">More funding methods than anyone else in the industry. Get payments from your players using debit, credit cards, e-checks, MoneyGram, and all the major cryptocurrencies including Bitcoin, Ethereum, Litecoin, Ripple, and Stellar. </p>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "13px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "yifNPC8hQs",
+                    "type": "button",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "href": {
+                            "name": "web",
+                            "values": {
+                                "href": "https://payperhead.com/banking-services/",
+                                "target": "_blank"
+                            },
+                            "attrs": {
+                                "href": "{{href}}",
+                                "target": "{{target}}"
+                            }
+                        },
+                        "buttonColors": {
+                            "color": "#FFFFFF",
+                            "backgroundColor": "transparent",
+                            "hoverColor": "#FFFFFF",
+                            "hoverBackgroundColor": "transparent"
+                        },
+                        "size": {
+                            "autoWidth": true,
+                            "width": "100%"
+                        },
+                        "fontWeight": 700,
+                        "fontSize": "16px",
+                        "textAlign": "left",
+                        "lineHeight": "120%",
+                        "padding": "10px 20px",
+                        "border": {
+                            "borderTopColor": "#f35936",
+                            "borderTopStyle": "solid",
+                            "borderTopWidth": "3px",
+                            "borderLeftColor": "#f35936",
+                            "borderLeftStyle": "solid",
+                            "borderLeftWidth": "3px",
+                            "borderRightColor": "#f35936",
+                            "borderRightStyle": "solid",
+                            "borderRightWidth": "3px",
+                            "borderBottomColor": "#f35936",
+                            "borderBottomStyle": "solid",
+                            "borderBottomWidth": "3px"
+                        },
+                        "borderRadius": "4px",
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_button_8",
+                            "htmlClassNames": "u_content_button"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<span style=\"line-height: 19.2px;\">LEARN MORE</span>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "14px"
+                            }
+                        },
+                        "calculatedWidth": 144,
+                        "calculatedHeight": 39
+                    }
+                }, {
+                    "id": "PyW7RUZM8S",
+                    "type": "image",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "src": {
+                            "url": "https://a.mailmunch.co/user_data/landing_pages/1689194401938-feat-img-laptopbillsv2-removebg-preview.png",
+                            "width": 611,
+                            "height": 362,
+                            "maxWidth": "80%",
+                            "autoWidth": false
+                        },
+                        "textAlign": "left",
+                        "altText": "",
+                        "action": {
+                            "name": "web",
+                            "values": {
+                                "href": "",
+                                "target": "_blank"
+                            }
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_image_12",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_9",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "10px 10px 20px",
+                    "_override": {
+                        "mobile": {
+                            "padding": "10px 10px 20px"
+                        }
+                    },
+                    "borderRadius": "0px",
+                    "backgroundColor": "#0062b3"
+                }
+            }, {
+                "id": "w4tqD1QVIv",
+                "contents": [{
+                    "id": "uz34xPdOqn",
+                    "type": "image",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "src": {
+                            "url": "https://a.mailmunch.co/user_data/landing_pages/1689194300410-PremiumProps-img-1-removebg-preview.png",
+                            "width": 507,
+                            "height": 492,
+                            "maxWidth": "56%",
+                            "autoWidth": false
+                        },
+                        "textAlign": "right",
+                        "altText": "",
+                        "action": {
+                            "name": "web",
+                            "values": {
+                                "href": "",
+                                "target": "_blank"
+                            }
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_image_13",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true
+                    }
+                }, {
+                    "id": "gnEGZ7Yopf",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h1",
+                        "fontWeight": 700,
+                        "fontSize": "64px",
+                        "color": "#0062b3",
+                        "textAlign": "right",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_14",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "6",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "48px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "i0dxbmA2PF",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h2",
+                        "fontWeight": 700,
+                        "fontSize": "18px",
+                        "color": "#000000",
+                        "textAlign": "right",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_15",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "LIVE WAGERING &amp; PREMIUM PROPS",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "16px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "9thSX2dT8i",
+                    "type": "text",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "fontSize": "14px",
+                        "color": "#000000",
+                        "textAlign": "right",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_text_7",
+                            "htmlClassNames": "u_content_text"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<p style=\"line-height: 140%;\">Give your players the closest thing to watching and betting on a game live at the arena. They no longer have to switch platforms each time they bet. They can bet throughout each game and get to choose from hundreds of prop bets.</p>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "13px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "NnBncd-FC4",
+                    "type": "button",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "href": {
+                            "name": "web",
+                            "values": {
+                                "href": "https://payperhead.com/premium-props/",
+                                "target": "_blank"
+                            },
+                            "attrs": {
+                                "href": "{{href}}",
+                                "target": "{{target}}"
+                            }
+                        },
+                        "buttonColors": {
+                            "color": "#000000",
+                            "backgroundColor": "transparent",
+                            "hoverColor": "#FFFFFF",
+                            "hoverBackgroundColor": "transparent"
+                        },
+                        "size": {
+                            "autoWidth": true,
+                            "width": "100%"
+                        },
+                        "fontWeight": 700,
+                        "fontSize": "16px",
+                        "textAlign": "right",
+                        "lineHeight": "120%",
+                        "padding": "10px 20px",
+                        "border": {
+                            "borderTopColor": "#0062b3",
+                            "borderTopStyle": "solid",
+                            "borderTopWidth": "3px",
+                            "borderLeftColor": "#0062b3",
+                            "borderLeftStyle": "solid",
+                            "borderLeftWidth": "3px",
+                            "borderRightColor": "#0062b3",
+                            "borderRightStyle": "solid",
+                            "borderRightWidth": "3px",
+                            "borderBottomColor": "#0062b3",
+                            "borderBottomStyle": "solid",
+                            "borderBottomWidth": "3px"
+                        },
+                        "borderRadius": "4px",
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_button_9",
+                            "htmlClassNames": "u_content_button"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<span style=\"line-height: 19.2px;\">LEARN MORE</span>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "14px"
+                            }
+                        },
+                        "calculatedWidth": 144,
+                        "calculatedHeight": 39
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_10",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "10px 10px 20px",
+                    "_override": {
+                        "mobile": {
+                            "padding": "10px 10px 20px"
+                        }
+                    },
+                    "borderRadius": "0px",
+                    "backgroundColor": "#ffffff"
+                }
+            }],
+            "values": {
+                "displayCondition": null,
+                "columns": false,
+                "backgroundColor": "#ffffff",
+                "columnsBackgroundColor": "#0062b3",
+                "alignItems": "center",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": "no-repeat",
+                    "size": "custom",
+                    "position": "center"
+                },
+                "padding": "0px",
+                "anchor": "",
+                "hideDesktop": false,
+                "_meta": {
+                    "htmlID": "u_row_5",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "duplicatable": true,
+                "deletable": true,
+                "hideable": true
+            }
+        }, {
+            "id": "GXZRZ2e3PE",
+            "cells": [1],
+            "columns": [{
+                "id": "BmbmdpIbaT",
+                "contents": [{
+                    "id": "V0TShM8cwV",
+                    "type": "divider",
+                    "values": {
+                        "width": "100%",
+                        "border": {
+                            "borderTopWidth": "0px",
+                            "borderTopStyle": "solid",
+                            "borderTopColor": "#BBBBBB"
+                        },
+                        "textAlign": "center",
+                        "containerPadding": "30px 10px 20px",
+                        "anchor": "",
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_divider_3",
+                            "htmlClassNames": "u_content_divider"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_17",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "0px",
+                    "borderRadius": "0px",
+                    "backgroundColor": ""
+                }
+            }],
+            "values": {
+                "displayCondition": null,
+                "columns": false,
+                "backgroundColor": "#ffffff",
+                "columnsBackgroundColor": "#ffffff",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": "no-repeat",
+                    "size": "custom",
+                    "position": "center"
+                },
+                "padding": "0px",
+                "anchor": "",
+                "hideDesktop": false,
+                "_meta": {
+                    "htmlID": "u_row_11",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "duplicatable": true,
+                "deletable": true,
+                "hideable": true
+            }
+        }, {
+            "id": "cuUcUSkUAS",
+            "cells": [57.17, 42.83],
+            "columns": [{
+                "id": "kIOhL7cNve",
+                "contents": [{
+                    "id": "cx7njGWKMu",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "headingType": "h2",
+                        "fontWeight": 700,
+                        "fontSize": "22px",
+                        "color": "#f35936",
+                        "textAlign": "left",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_13",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<em>GENERATE MORE REVENUE FOR YOUR SPORTSBOOK BUSINESS TODAY</em>"
+                    }
+                }, {
+                    "id": "Q4AyKAhgSN",
+                    "type": "text",
+                    "values": {
+                        "containerPadding": "0px 10px 10px",
+                        "anchor": "",
+                        "fontSize": "14px",
+                        "color": "#000000",
+                        "textAlign": "left",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_text_9",
+                            "htmlClassNames": "u_content_text"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<p style=\"line-height: 140%;\">You can raise your per head Sportsbook Business to the Highest Level.<br />Take a tour to find out how PayPerHead can make you a pack leader.</p>",
+                        "_override": {
+                            "desktop": {
+                                "hideDesktop": false
+                            }
+                        }
+                    }
+                }, {
+                    "id": "0jZh746Vm_",
+                    "type": "button",
+                    "values": {
+                        "containerPadding": "0px 10px",
+                        "anchor": "",
+                        "href": {
+                            "name": "web",
+                            "values": {
+                                "href": "https://payperhead.com/tour/",
+                                "target": "_blank"
+                            },
+                            "attrs": {
+                                "href": "{{href}}",
+                                "target": "{{target}}"
+                            }
+                        },
+                        "buttonColors": {
+                            "color": "#FFFFFF",
+                            "backgroundColor": "#f35936",
+                            "hoverColor": "#FFFFFF",
+                            "hoverBackgroundColor": "#f35936"
+                        },
+                        "size": {
+                            "autoWidth": true,
+                            "width": "100%"
+                        },
+                        "fontWeight": 700,
+                        "fontSize": "16px",
+                        "textAlign": "left",
+                        "lineHeight": "120%",
+                        "padding": "10px 20px",
+                        "border": {},
+                        "borderRadius": "4px",
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_button_4",
+                            "htmlClassNames": "u_content_button"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<span style=\"line-height: 19.2px;\">LEARN MORE</span>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "14px"
+                            }
+                        },
+                        "calculatedWidth": 144,
+                        "calculatedHeight": 39
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_11",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "30px 0px 30px 10px",
+                    "_override": {
+                        "mobile": {
+                            "padding": "30px 10px"
+                        }
+                    },
+                    "borderRadius": "0px",
+                    "backgroundColor": ""
+                }
+            }, {
+                "id": "_IdXSsKiQi",
+                "contents": [{
+                    "id": "qRvMQpFx4e",
+                    "type": "image",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "src": {
+                            "url": "https://a.mailmunch.co/user_data/landing_pages/1689189385760-player-jump-removebg-preview.png",
+                            "width": 673,
+                            "height": 371,
+                            "maxWidth": "100%",
+                            "autoWidth": false
+                        },
+                        "textAlign": "center",
+                        "altText": "",
+                        "action": {
+                            "name": "web",
+                            "values": {
+                                "href": "",
+                                "target": "_blank"
+                            }
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_image_5",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_12",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "30px 10px 30px 0px",
+                    "borderRadius": "0px",
+                    "backgroundColor": ""
+                }
+            }],
+            "values": {
+                "displayCondition": null,
+                "columns": false,
+                "backgroundColor": "#f0f0f0",
+                "columnsBackgroundColor": "#f0f0f0",
+                "alignItems": "center",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": "no-repeat",
+                    "size": "custom",
+                    "position": "center"
+                },
+                "padding": "0px",
+                "anchor": "",
+                "hideDesktop": false,
+                "_meta": {
+                    "htmlID": "u_row_6",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "duplicatable": true,
+                "deletable": true,
+                "hideable": true
+            }
+        }, {
+            "id": "WecHKbNvK4",
+            "cells": [1],
+            "columns": [{
+                "id": "GzgbuMH64G",
+                "contents": [{
+                    "id": "frfikzb_uS",
+                    "type": "heading",
+                    "values": {
+                        "containerPadding": "10px 10px 30px",
+                        "anchor": "",
+                        "headingType": "h2",
+                        "fontWeight": 700,
+                        "fontSize": "22px",
+                        "color": "#ffffff",
+                        "textAlign": "center",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_heading_18",
+                            "htmlClassNames": "u_content_heading"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "Join PayPerHead now and get ClubPoker!",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "16px"
+                            }
+                        }
+                    }
+                }, {
+                    "id": "bwLI8pKR_P",
+                    "type": "mailmunch#form",
+                    "values": {
+                        "displayCondition": null,
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "_meta": {
+                            "htmlID": "u_content_mailmunch#form_2",
+                            "htmlClassNames": "u_content_mailmunch#form"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "fields": [{
+                            "name": "email",
+                            "type": "email",
+                            "label": "Email",
+                            "width": 2,
+                            "options": [],
+                            "required": true,
+                            "meta_data": {},
+                            "placeholder_text": "Enter email here"
+                        }, {
+                            "name": "first_name",
+                            "type": "text",
+                            "label": "First Name",
+                            "width": 2,
+                            "options": "",
+                            "required": false,
+                            "meta_data": {},
+                            "show_label": false,
+                            "placeholder_text": "Enter first name"
+                        }, {
+                            "name": "phone",
+                            "type": "text",
+                            "label": "Phone",
+                            "width": 2,
+                            "options": "",
+                            "required": false,
+                            "meta_data": {},
+                            "show_label": false,
+                            "placeholder_text": "Enter phone number"
+                        }],
+                        "_override": {
+                            "mobile": {
+                                "formWidth": {
+                                    "width": "100%",
+                                    "autoWidth": false,
+                                    "fullWidthOnMobile": false
+                                }
+                            }
+                        },
+                        "formAlign": "center",
+                        "formWidth": {
+                            "width": "65%",
+                            "autoWidth": false,
+                            "fullWidthOnMobile": false
+                        },
+                        "buttonText": "SIGN UP NOW",
+                        "fieldColor": "#000",
+                        "fieldWidth": "100%",
+                        "labelAlign": "left",
+                        "labelColor": "#022343",
+                        "buttonAlign": "center",
+                        "buttonWidth": {
+                            "width": "100%",
+                            "autoWidth": false,
+                            "fullWidthOnMobile": false
+                        },
+                        "fieldBorder": {
+                            "borderTopColor": "#022343",
+                            "borderTopStyle": "solid",
+                            "borderTopWidth": "1px",
+                            "borderLeftColor": "#022343",
+                            "borderLeftStyle": "solid",
+                            "borderLeftWidth": "1px",
+                            "borderRightColor": "#022343",
+                            "borderRightStyle": "solid",
+                            "borderRightWidth": "1px",
+                            "borderBottomColor": "#022343",
+                            "borderBottomStyle": "solid",
+                            "borderBottomWidth": "1px"
+                        },
+                        "buttonBorder": {},
+                        "buttonColors": {
+                            "color": "#FFF",
+                            "hoverColor": "#FFF",
+                            "backgroundColor": "#f35936",
+                            "hoverBackgroundColor": "#f35936"
+                        },
+                        "buttonMargin": "5px 0px 0px",
+                        "fieldPadding": "10px",
+                        "labelPadding": "0px 0px 4px",
+                        "buttonPadding": "10px",
+                        "fieldDistance": "10px",
+                        "fieldFontSize": "12px",
+                        "labelFontSize": "14px",
+                        "buttonFontSize": "16px",
+                        "formLayoutType": "standard",
+                        "fieldFontFamily": {
+                            "label": "Arial",
+                            "value": "arial,helvetica,sans-serif"
+                        },
+                        "labelFontFamily": {
+                            "label": "Arial",
+                            "value": "arial,helvetica,sans-serif"
+                        },
+                        "buttonFontFamily": {
+                            "label": "Arial",
+                            "value": "arial,helvetica,sans-serif"
+                        },
+                        "fieldBorderRadius": "4px",
+                        "buttonBorderRadius": "4px",
+                        "fieldBackgroundColor": "#FFF"
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_15",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "30px 0px",
+                    "borderRadius": "0px",
+                    "backgroundColor": ""
+                }
+            }],
+            "values": {
+                "displayCondition": null,
+                "columns": false,
+                "backgroundColor": "#022343",
+                "columnsBackgroundColor": "",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": "no-repeat",
+                    "size": "custom",
+                    "position": "center"
+                },
+                "padding": "0px",
+                "anchor": "",
+                "hideDesktop": false,
+                "_meta": {
+                    "htmlID": "u_row_9",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "duplicatable": true,
+                "deletable": true,
+                "hideable": true
+            }
+        }, {
+            "id": "BY6-sk7fHG",
+            "cells": [1, 1, 1],
+            "columns": [{
+                "id": "DP7rbF1-9i",
+                "contents": [{
+                    "id": "Q59k_bRqL8",
+                    "type": "image",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "src": {
+                            "url": "https://a.mailmunch.co/user_data/landing_pages/1689194566952-top-moba.jpg",
+                            "width": 502,
+                            "height": 319
+                        },
+                        "textAlign": "center",
+                        "altText": "",
+                        "action": {
+                            "name": "web",
+                            "values": {
+                                "href": "",
+                                "target": "_blank"
+                            }
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_image_15",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_18",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "0px",
+                    "borderRadius": "0px",
+                    "backgroundColor": ""
+                }
+            }, {
+                "id": "UiFSAe-Gv7",
+                "contents": [{
+                    "id": "lwi1eQAyJJ",
+                    "type": "image",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "src": {
+                            "url": "https://a.mailmunch.co/user_data/landing_pages/1689194590902-sports-simulators.jpg",
+                            "width": 502,
+                            "height": 315
+                        },
+                        "textAlign": "center",
+                        "altText": "",
+                        "action": {
+                            "name": "web",
+                            "values": {
+                                "href": "",
+                                "target": "_blank"
+                            }
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_image_16",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_19",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "0px",
+                    "borderRadius": "0px",
+                    "backgroundColor": ""
+                }
+            }, {
+                "id": "2BAAbTD0Iq",
+                "contents": [{
+                    "id": "whx5nxBGtc",
+                    "type": "image",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "src": {
+                            "url": "https://a.mailmunch.co/user_data/landing_pages/1689194595581-first-person-shooters.jpg",
+                            "width": 502,
+                            "height": 324
+                        },
+                        "textAlign": "center",
+                        "altText": "",
+                        "action": {
+                            "name": "web",
+                            "values": {
+                                "href": "",
+                                "target": "_blank"
+                            }
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_image_14",
+                            "htmlClassNames": "u_content_image"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_20",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "0px",
+                    "borderRadius": "0px",
+                    "backgroundColor": ""
+                }
+            }],
+            "values": {
+                "displayCondition": null,
+                "columns": false,
+                "backgroundColor": "#022343",
+                "columnsBackgroundColor": "",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": "no-repeat",
+                    "size": "custom",
+                    "position": "center"
+                },
+                "padding": "30px 0px",
+                "anchor": "",
+                "hideDesktop": false,
+                "_meta": {
+                    "htmlID": "u_row_12",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "duplicatable": true,
+                "deletable": true,
+                "hideable": true
+            }
+        }, {
+            "id": "uvoZ6i_WF3",
+            "cells": [1],
+            "columns": [{
+                "id": "yZgXEaCLH6",
+                "contents": [{
+                    "id": "eQoTmM9c27",
+                    "type": "social",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "icons": {
+                            "iconType": "circle-white",
+                            "icons": [{
+                                "url": "https://www.facebook.com/PPHSoftware",
+                                "name": "Facebook"
+                            }, {
+                                "url": "https://twitter.com/GetPayPerHead",
+                                "name": "Twitter"
+                            }, {
+                                "url": "https://www.instagram.com/getpayperhead/",
+                                "name": "Instagram"
+                            }, {
+                                "url": "https://www.youtube.com/channel/UCWzqOzMZphiQG79ftyalwVA",
+                                "name": "YouTube"
+                            }],
+                            "editor": {
+                                "data": {
+                                    "showDefaultIcons": true,
+                                    "showDefaultOptions": true,
+                                    "customIcons": [],
+                                    "customOptions": []
+                                }
+                            }
+                        },
+                        "align": "center",
+                        "spacing": 15,
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_social_1",
+                            "htmlClassNames": "u_content_social"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true
+                    }
+                }, {
+                    "id": "PRp72j8XG1",
+                    "type": "divider",
+                    "values": {
+                        "width": "94%",
+                        "border": {
+                            "borderTopWidth": "1px",
+                            "borderTopStyle": "solid",
+                            "borderTopColor": "#ffffff"
+                        },
+                        "textAlign": "center",
+                        "containerPadding": "20px 10px",
+                        "anchor": "",
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_divider_1",
+                            "htmlClassNames": "u_content_divider"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true
+                    }
+                }, {
+                    "id": "7FfuvCbLqN",
+                    "type": "text",
+                    "values": {
+                        "containerPadding": "10px",
+                        "anchor": "",
+                        "fontSize": "14px",
+                        "color": "#ffffff",
+                        "textAlign": "center",
+                        "lineHeight": "140%",
+                        "linkStyle": {
+                            "inherit": true,
+                            "linkColor": "#0000ee",
+                            "linkHoverColor": "#0000ee",
+                            "linkUnderline": true,
+                            "linkHoverUnderline": true
+                        },
+                        "hideDesktop": false,
+                        "displayCondition": null,
+                        "_meta": {
+                            "htmlID": "u_content_text_6",
+                            "htmlClassNames": "u_content_text"
+                        },
+                        "selectable": true,
+                        "draggable": true,
+                        "duplicatable": true,
+                        "deletable": true,
+                        "hideable": true,
+                        "text": "<p style=\"line-height: 140%;\">Copyright © 2023 PAYPERHEAD. All Rights Reserved.</p>",
+                        "_override": {
+                            "mobile": {
+                                "fontSize": "13px"
+                            },
+                            "desktop": {
+                                "hideDesktop": false
+                            }
+                        }
+                    }
+                }],
+                "values": {
+                    "_meta": {
+                        "htmlID": "u_column_13",
+                        "htmlClassNames": "u_column"
+                    },
+                    "border": {},
+                    "padding": "30px 0px",
+                    "_override": {
+                        "mobile": {
+                            "padding": "30px 10px"
+                        }
+                    },
+                    "borderRadius": "0px",
+                    "backgroundColor": ""
+                }
+            }],
+            "values": {
+                "displayCondition": null,
+                "columns": false,
+                "backgroundColor": "#022343",
+                "columnsBackgroundColor": "#022343",
+                "backgroundImage": {
+                    "url": "",
+                    "fullWidth": true,
+                    "repeat": "no-repeat",
+                    "size": "custom",
+                    "position": "center"
+                },
+                "padding": "0px",
+                "anchor": "",
+                "hideDesktop": false,
+                "_meta": {
+                    "htmlID": "u_row_7",
+                    "htmlClassNames": "u_row"
+                },
+                "selectable": true,
+                "draggable": true,
+                "duplicatable": true,
+                "deletable": true,
+                "hideable": true
+            }
+        }],
+        "values": {
+            "popupPosition": "center",
+            "popupWidth": "600px",
+            "popupHeight": "auto",
+            "borderRadius": "10px",
+            "contentAlign": "center",
+            "contentVerticalAlign": "center",
+            "contentWidth": "1200px",
+            "fontFamily": {
+                "label": "Open Sans",
+                "value": "'Open Sans',sans-serif",
+                "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,700",
+                "weights": null,
+                "defaultFont": true
+            },
+            "textColor": "#000000",
+            "popupBackgroundColor": "#FFFFFF",
+            "popupBackgroundImage": {
+                "url": "",
+                "fullWidth": true,
+                "repeat": "no-repeat",
+                "size": "cover",
+                "position": "center"
+            },
+            "popupOverlay_backgroundColor": "rgba(0, 0, 0, 0.1)",
+            "popupCloseButton_position": "top-right",
+            "popupCloseButton_backgroundColor": "#DDDDDD",
+            "popupCloseButton_iconColor": "#000000",
+            "popupCloseButton_borderRadius": "0px",
+            "popupCloseButton_margin": "0px",
+            "popupCloseButton_action": {
+                "name": "close_popup",
+                "attrs": {
+                    "onClick": "document.querySelector('.u-popup-container').style.display = 'none';"
+                }
+            },
+            "backgroundColor": "#e7e7e7",
+            "backgroundImage": {
+                "url": "",
+                "fullWidth": true,
+                "repeat": "no-repeat",
+                "size": "custom",
+                "position": "center"
+            },
+            "preheaderText": "",
+            "linkStyle": {
+                "body": true,
+                "linkColor": "#0000ee",
+                "linkHoverColor": "#0000ee",
+                "linkUnderline": true,
+                "linkHoverUnderline": true
+            },
+            "_meta": {
+                "htmlID": "u_body",
+                "htmlClassNames": "u_body"
+            }
+        }
+    },
+    "schemaVersion": 15
+}

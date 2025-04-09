@@ -1,0 +1,1 @@
+[2024-05-02 14:16:53] local.ERROR: Exception in D:\xampp\htdocs\projects\harpoon\vendor\laravel\framework\src\Illuminate\Auth\Middleware\Authenticate.php : Line#82: message: Unauthenticated.  

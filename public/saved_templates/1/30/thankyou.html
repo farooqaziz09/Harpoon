@@ -1,0 +1,676 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    
+    
+      <style type="text/css">
+        .u-row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.u-row .u-col {
+  position: relative;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+.u-row .u-col.u-col-33p33 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.u-row .u-col.u-col-42p83 {
+  flex: 0 0 42.83%;
+  max-width: 42.83%;
+}
+
+.u-row .u-col.u-col-50 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.u-row .u-col.u-col-57p17 {
+  flex: 0 0 57.17%;
+  max-width: 57.17%;
+}
+
+.u-row .u-col.u-col-100 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+
+@media (max-width: 767px) {
+  .u-row:not(.no-stack) {
+    flex-wrap: wrap;
+  }
+
+  .u-row:not(.no-stack) .u-col {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+body,html{padding:0;margin:0}html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}html{font-size:14px;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:rgba(0,0,0,0)}p{margin:0}form .error-field{-webkit-animation-name:shake;animation-name:shake;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}form .error-field input,form .error-field textarea{border-color:#a94442!important;color:#a94442!important}form .field-error{padding:5px 10px;font-size:14px;font-weight:700;position:absolute;top:-20px;right:10px}form .field-error:after{top:100%;left:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(136,183,213,0);border-top-color:#ebcccc;border-width:5px;margin-left:-5px}form .spinner{margin:0 auto;width:70px;text-align:center}form .spinner>div{width:12px;height:12px;background-color:hsla(0,0%,100%,.5);margin:0 2px;border-radius:100%;display:inline-block;-webkit-animation:sk-bouncedelay 1.4s infinite ease-in-out both;animation:sk-bouncedelay 1.4s infinite ease-in-out both}form .spinner .bounce1{-webkit-animation-delay:-.32s;animation-delay:-.32s}form .spinner .bounce2{-webkit-animation-delay:-.16s;animation-delay:-.16s}@-webkit-keyframes sk-bouncedelay{0%,80%,to{-webkit-transform:scale(0)}40%{-webkit-transform:scale(1)}}@keyframes sk-bouncedelay{0%,80%,to{-webkit-transform:scale(0);transform:scale(0)}40%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@media (max-width:480px){.container{max-width:100%!important}}@media (min-width:481px) and (max-width:768px){.hide-tablet{display:none!important}}.container{width:100%;padding-right:0;padding-left:0;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}
+
+a[onclick] {
+  cursor: pointer;
+}
+body { font-family: 'Open Sans',sans-serif; font-size: 1rem; line-height: 1.5; color: #000000; background-color: #e7e7e7; } #u_body a { color: #0000ee; text-decoration: underline; } #u_body a:hover { color: #0000ee; text-decoration: underline; } #u_content_button_10 a:hover { color: #FFFFFF !important; background-color: #f35936 !important; } #u_content_button_5 a:hover { color: #FFFFFF !important; background-color: transparent !important; } #u_content_button_3 a:hover { color: #FFFFFF !important; background-color: transparent !important; } #u_content_button_6 a:hover { color: #FFFFFF !important; background-color: transparent !important; } #u_content_button_7 a:hover { color: #FFFFFF !important; background-color: transparent !important; } #u_content_button_8 a:hover { color: #FFFFFF !important; background-color: transparent !important; } #u_content_button_9 a:hover { color: #FFFFFF !important; background-color: transparent !important; } #u_content_button_4 a:hover { color: #FFFFFF !important; background-color: #f35936 !important; } @media (max-width: 480px) { #u_content_image_3 .v-src-width { width: auto !important; } #u_content_image_3 .v-src-max-width { max-width: 60% !important; } #u_row_1.v-row-padding { padding: 0px !important; } #u_column_1 .v-col-padding { padding: 0px !important; } #u_content_image_2 .v-src-width { width: auto !important; } #u_content_image_2 .v-src-max-width { max-width: 100% !important; } #u_content_heading_19 .v-font-size { font-size: 22px !important; } #u_content_heading_2 .v-font-size { font-size: 22px !important; } #u_column_5 .v-col-padding { padding: 10px 10px 20px !important; } #u_content_heading_6 .v-font-size { font-size: 48px !important; } #u_content_heading_7 .v-font-size { font-size: 16px !important; } #u_content_text_3 .v-font-size { font-size: 13px !important; } #u_content_button_5 .v-font-size { font-size: 14px !important; } #u_column_6 .v-col-padding { padding: 10px 10px 20px !important; } #u_content_heading_3 .v-font-size { font-size: 48px !important; } #u_content_heading_5 .v-font-size { font-size: 16px !important; } #u_content_text_1 .v-font-size { font-size: 13px !important; } #u_content_button_3 .v-font-size { font-size: 14px !important; } #u_column_7 .v-col-padding { padding: 10px 10px 20px !important; } #u_content_heading_8 .v-font-size { font-size: 48px !important; } #u_content_heading_9 .v-font-size { font-size: 16px !important; } #u_content_text_4 .v-font-size { font-size: 13px !important; } #u_content_button_6 .v-font-size { font-size: 14px !important; } #u_column_8 .v-col-padding { padding: 10px 10px 20px !important; } #u_content_heading_10 .v-font-size { font-size: 48px !important; } #u_content_heading_11 .v-font-size { font-size: 16px !important; } #u_content_text_5 .v-font-size { font-size: 13px !important; } #u_content_button_7 .v-font-size { font-size: 14px !important; } #u_column_9 .v-col-padding { padding: 10px 10px 20px !important; } #u_content_heading_12 .v-font-size { font-size: 48px !important; } #u_content_heading_17 .v-font-size { font-size: 16px !important; } #u_content_text_8 .v-font-size { font-size: 13px !important; } #u_content_button_8 .v-font-size { font-size: 14px !important; } #u_column_10 .v-col-padding { padding: 10px 10px 20px !important; } #u_content_heading_14 .v-font-size { font-size: 48px !important; } #u_content_heading_15 .v-font-size { font-size: 16px !important; } #u_content_text_7 .v-font-size { font-size: 13px !important; } #u_content_button_9 .v-font-size { font-size: 14px !important; } #u_column_11 .v-col-padding { padding: 30px 10px !important; } #u_content_button_4 .v-font-size { font-size: 14px !important; } #u_content_heading_18 .v-font-size { font-size: 16px !important; } #u_column_13 .v-col-padding { padding: 30px 10px !important; } #u_content_text_6 .v-font-size { font-size: 13px !important; } }
+      </style>
+    
+    
+  </head>
+  <body>
+    
+  <div id="u_body" class="u_body" style="min-height: 100vh;">
+    
+  <div id="u_row_10" class="u_row v-row-padding" style="background-color: #ffffff; padding: 0px;">
+    <div class="container" style="max-width: 1200px;margin: 0 auto;background-color: #ffffff;">
+      <div class="u-row">
+        
+<div id="u_column_16" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_3" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  <a href="https://payperhead.com/" target="_blank">
+  <img alt="" class="v-src-width v-src-max-width" src="https://a.mailmunch.co/user_data/landing_pages/1689173019175-Logos%20PPH-1.png" style="width: 45%;max-width: 45%;" title=""/>
+  </a>
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_1" class="u_row v-row-padding" style="background-color: #045eaa; padding: 0px;">
+    <div class="container" style="max-width: 1200px;margin: 0 auto;background-color: #ffffff;">
+      <div class="u-row">
+        
+<div id="u_column_1" class="u-col u-col-100 u_column" style="display:flex;background-color:#ffffff;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_2" class="u_content_image" style="overflow-wrap: break-word;padding: 0px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://a.mailmunch.co/user_data/landing_pages/1689172399724-PPH-Refresh-1.jpeg" style="width: 100%;max-width: 100%;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_8" class="u_row v-row-padding" style="background-color: #ffffff; padding: 0px;">
+    <div class="container" style="max-width: 1200px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_14" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:30px 0px;">
+    
+  <div id="u_content_heading_19" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #fe6847; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 28px; font-weight: 700;"><em>PAYPERHEAD BOOKIE SOFTWARE</em></h1>
+
+  </div>
+
+  <div id="u_content_text_2" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">We’re revolutionizing the pay per head industry. Our bookie software stays ahead of the pack because we design our own software. It’s not based on third-party software, which means we can create what works best for you the agent.</p>
+<p style="line-height: 140%;">We’ve created the ultimate software package which includes an extraordinary experience for your players, making it easier for you to make more money.</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_button_10" class="u_content_button" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="text-align: center;">
+  <a href="https://payperhead.com/" target="_blank" class="v-font-size" style="color:#FFFFFF;background-color:#f35936;border-radius: 4px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;font-size: 16px;font-weight: 700; ">
+    <span style="line-height: 19.2px;">LEARN MORE</span>
+  </a>
+</div>
+
+  </div>
+
+  <div id="u_content_image_7" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://a.mailmunch.co/user_data/landing_pages/1689251562520-new-sbpage-img-3-1.png" style="width: 60%;max-width: 60%;" title=""/>
+  
+</div>
+
+  </div>
+
+  <div id="u_content_heading_2" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #fe6847; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 28px; font-weight: 700;"><em>Here is your Heading</em></h1>
+
+  </div>
+
+  <div id="u_content_mailmunch#form_1" class="u_content_mailmunch#form" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div id="u_content_mailmunch#form_1" class="u_content_mailmunch#form missing-item">Missing</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_3" class="u_row v-row-padding" style="background-color: #ffffff; padding: 0px;">
+    <div class="container" style="max-width: 1200px;margin: 0 auto;">
+      <div class="u-row" style="align-items: center;">
+        
+<div id="u_column_5" class="u-col u-col-50 u_column" style="display:flex;align-items:center;background-color:#0062b3;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:10px 10px 20px;">
+    
+  <div id="u_content_heading_6" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 64px; font-weight: 700;">1</h1>
+
+  </div>
+
+  <div id="u_content_heading_7" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h2 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 18px; font-weight: 700;">MOVE PLAYERS FAST &amp; EASY</h2>
+
+  </div>
+
+  <div id="u_content_text_3" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">With just one call, we can get your players transferred over to the best bookie software on the net. We’ve been transferring people over for decades, so you can be confident in our ability to seamlessly and quickly get you onboard with PayPerHead.</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_button_5" class="u_content_button" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="text-align: left;">
+  <a href="https://payperhead.com/premium-online-casino/" target="_blank" class="v-font-size" style="color:#FFFFFF;background-color:transparent;border-radius: 4px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;border-top-color: #f35936; border-top-style: solid; border-top-width: 3px; border-left-color: #f35936; border-left-style: solid; border-left-width: 3px; border-right-color: #f35936; border-right-style: solid; border-right-width: 3px; border-bottom-color: #f35936; border-bottom-style: solid; border-bottom-width: 3px;font-size: 16px;font-weight: 700; ">
+    <span style="line-height: 19.2px;">LEARN MORE</span>
+  </a>
+</div>
+
+  </div>
+
+  <div id="u_content_image_8" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:left">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://a.mailmunch.co/user_data/landing_pages/1689193831334-ss-basketball-top-right-removebg-preview.png" style="width: 62%;max-width: 62%;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_6" class="u-col u-col-50 u_column" style="display:flex;align-items:center;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:10px 10px 20px;">
+    
+  <div id="u_content_image_9" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:right">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://a.mailmunch.co/user_data/landing_pages/1689193990307-esports-betting-platform-removebg-preview.png" style="width: 78%;max-width: 78%;" title=""/>
+  
+</div>
+
+  </div>
+
+  <div id="u_content_heading_3" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #0062b3; line-height: 140%; text-align: right; word-wrap: break-word; font-size: 64px; font-weight: 700;">2</h1>
+
+  </div>
+
+  <div id="u_content_heading_5" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h2 class="v-font-size" style="margin: 0px; color: #000000; line-height: 140%; text-align: right; word-wrap: break-word; font-size: 18px; font-weight: 700;">SPORTSBOOK SOFTWARE</h2>
+
+  </div>
+
+  <div id="u_content_text_1" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; color: #000000; line-height: 140%; text-align: right; word-wrap: break-word;">
+    <p style="line-height: 140%;">We’ve developed our unique software to keep your players glued to your website for great entertainment and easy betting. We provide a huge collection of casino and sports action to bet on that rivals any book out there. Isn’t that the name of the game?</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_button_3" class="u_content_button" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="text-align: right;">
+  <a href="https://payperhead.com/sportsbook-software/" target="_blank" class="v-font-size" style="color:#000000;background-color:transparent;border-radius: 4px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;border-top-color: #0062b3; border-top-style: solid; border-top-width: 3px; border-left-color: #0062b3; border-left-style: solid; border-left-width: 3px; border-right-color: #0062b3; border-right-style: solid; border-right-width: 3px; border-bottom-color: #0062b3; border-bottom-style: solid; border-bottom-width: 3px;font-size: 16px;font-weight: 700; ">
+    <span style="line-height: 19.2px;">LEARN MORE</span>
+  </a>
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_4" class="u_row v-row-padding" style="background-color: #ffffff; padding: 0px;">
+    <div class="container" style="max-width: 1200px;margin: 0 auto;background-color: #0062b3;">
+      <div class="u-row" style="align-items: center;">
+        
+<div id="u_column_7" class="u-col u-col-50 u_column" style="display:flex;align-items:center;background-color:#ffffff;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:10px 10px 20px;">
+    
+  <div id="u_content_heading_8" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #0062b3; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 64px; font-weight: 700;">3</h1>
+
+  </div>
+
+  <div id="u_content_heading_9" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h2 class="v-font-size" style="margin: 0px; color: #000000; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 18px; font-weight: 700;">PAY AND COLLECT ONLINE</h2>
+
+  </div>
+
+  <div id="u_content_text_4" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; color: #000000; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">You can accept a variety of payments from your players, online. It’s so easy that you can simply use your phone, anywhere in the world. No need to meet with your players for payments ever again. No one else has this solution available.</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_button_6" class="u_content_button" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="text-align: left;">
+  <a href="https://payperhead.com/agent-payment-solution/" target="_blank" class="v-font-size" style="color:#000000;background-color:transparent;border-radius: 4px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;border-top-color: #0062b3; border-top-style: solid; border-top-width: 3px; border-left-color: #0062b3; border-left-style: solid; border-left-width: 3px; border-right-color: #0062b3; border-right-style: solid; border-right-width: 3px; border-bottom-color: #0062b3; border-bottom-style: solid; border-bottom-width: 3px;font-size: 16px;font-weight: 700; ">
+    <span style="line-height: 19.2px;">LEARN MORE</span>
+  </a>
+</div>
+
+  </div>
+
+  <div id="u_content_image_11" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:left">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://a.mailmunch.co/user_data/landing_pages/1689194088465-aps-cards-removebg-preview.png" style="width: 62%;max-width: 62%;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_8" class="u-col u-col-50 u_column" style="display:flex;align-items:center;background-color:#0062b3;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:10px 10px 20px;">
+    
+  <div id="u_content_image_10" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:right">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://a.mailmunch.co/user_data/landing_pages/1689194229288-premium-playdevices-removebg-preview.png" style="width: 51%;max-width: 51%;" title=""/>
+  
+</div>
+
+  </div>
+
+  <div id="u_content_heading_10" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 140%; text-align: right; word-wrap: break-word; font-size: 64px; font-weight: 700;">4</h1>
+
+  </div>
+
+  <div id="u_content_heading_11" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h2 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 140%; text-align: right; word-wrap: break-word; font-size: 18px; font-weight: 700;">LIVE DEALERS &amp; PREMIUM CASINO</h2>
+
+  </div>
+
+  <div id="u_content_text_5" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; color: #ffffff; line-height: 140%; text-align: right; word-wrap: break-word;">
+    <p style="line-height: 140%;">We offer multiple dealers playing the most popular casino games including blackjack, roulette, and baccarat. Premium Casino includes hundreds of well-known titles and 3D games. Agents see a 15% increase in revenue when they offer our premium casino.</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_button_7" class="u_content_button" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="text-align: right;">
+  <a href="https://payperhead.com/premium-online-casino/" target="_blank" class="v-font-size" style="color:#FFFFFF;background-color:transparent;border-radius: 4px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;border-top-color: #f35936; border-top-style: solid; border-top-width: 3px; border-left-color: #f35936; border-left-style: solid; border-left-width: 3px; border-right-color: #f35936; border-right-style: solid; border-right-width: 3px; border-bottom-color: #f35936; border-bottom-style: solid; border-bottom-width: 3px;font-size: 16px;font-weight: 700; ">
+    <span style="line-height: 19.2px;">LEARN MORE</span>
+  </a>
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_5" class="u_row v-row-padding" style="background-color: #ffffff; padding: 0px;">
+    <div class="container" style="max-width: 1200px;margin: 0 auto;background-color: #0062b3;">
+      <div class="u-row" style="align-items: center;">
+        
+<div id="u_column_9" class="u-col u-col-50 u_column" style="display:flex;align-items:center;background-color:#0062b3;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:10px 10px 20px;">
+    
+  <div id="u_content_heading_12" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 64px; font-weight: 700;">5</h1>
+
+  </div>
+
+  <div id="u_content_heading_17" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h2 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 18px; font-weight: 700;">EASILY FUND YOUR ACCOUNT</h2>
+
+  </div>
+
+  <div id="u_content_text_8" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">More funding methods than anyone else in the industry. Get payments from your players using debit, credit cards, e-checks, MoneyGram, and all the major cryptocurrencies including Bitcoin, Ethereum, Litecoin, Ripple, and Stellar. </p>
+  </div>
+
+  </div>
+
+  <div id="u_content_button_8" class="u_content_button" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="text-align: left;">
+  <a href="https://payperhead.com/banking-services/" target="_blank" class="v-font-size" style="color:#FFFFFF;background-color:transparent;border-radius: 4px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;border-top-color: #f35936; border-top-style: solid; border-top-width: 3px; border-left-color: #f35936; border-left-style: solid; border-left-width: 3px; border-right-color: #f35936; border-right-style: solid; border-right-width: 3px; border-bottom-color: #f35936; border-bottom-style: solid; border-bottom-width: 3px;font-size: 16px;font-weight: 700; ">
+    <span style="line-height: 19.2px;">LEARN MORE</span>
+  </a>
+</div>
+
+  </div>
+
+  <div id="u_content_image_12" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:left">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://a.mailmunch.co/user_data/landing_pages/1689194401938-feat-img-laptopbillsv2-removebg-preview.png" style="width: 80%;max-width: 80%;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_10" class="u-col u-col-50 u_column" style="display:flex;align-items:center;background-color:#ffffff;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:10px 10px 20px;">
+    
+  <div id="u_content_image_13" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:right">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://a.mailmunch.co/user_data/landing_pages/1689194300410-PremiumProps-img-1-removebg-preview.png" style="width: 56%;max-width: 56%;" title=""/>
+  
+</div>
+
+  </div>
+
+  <div id="u_content_heading_14" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h1 class="v-font-size" style="margin: 0px; color: #0062b3; line-height: 140%; text-align: right; word-wrap: break-word; font-size: 64px; font-weight: 700;">6</h1>
+
+  </div>
+
+  <div id="u_content_heading_15" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h2 class="v-font-size" style="margin: 0px; color: #000000; line-height: 140%; text-align: right; word-wrap: break-word; font-size: 18px; font-weight: 700;">LIVE WAGERING &amp; PREMIUM PROPS</h2>
+
+  </div>
+
+  <div id="u_content_text_7" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; color: #000000; line-height: 140%; text-align: right; word-wrap: break-word;">
+    <p style="line-height: 140%;">Give your players the closest thing to watching and betting on a game live at the arena. They no longer have to switch platforms each time they bet. They can bet throughout each game and get to choose from hundreds of prop bets.</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_button_9" class="u_content_button" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="text-align: right;">
+  <a href="https://payperhead.com/premium-props/" target="_blank" class="v-font-size" style="color:#000000;background-color:transparent;border-radius: 4px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;border-top-color: #0062b3; border-top-style: solid; border-top-width: 3px; border-left-color: #0062b3; border-left-style: solid; border-left-width: 3px; border-right-color: #0062b3; border-right-style: solid; border-right-width: 3px; border-bottom-color: #0062b3; border-bottom-style: solid; border-bottom-width: 3px;font-size: 16px;font-weight: 700; ">
+    <span style="line-height: 19.2px;">LEARN MORE</span>
+  </a>
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_11" class="u_row v-row-padding" style="background-color: #ffffff; padding: 0px;">
+    <div class="container" style="max-width: 1200px;margin: 0 auto;background-color: #ffffff;">
+      <div class="u-row">
+        
+<div id="u_column_17" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_divider_3" class="u_content_divider" style="overflow-wrap: break-word;padding: 30px 10px 20px;">
+    <div style="text-align:center;line-height:0"><div style="border-top-width:0px;border-top-style:solid;border-top-color:#BBBBBB;width:100%;display:inline-block;line-height:0px;height:0px;vertical-align:middle"> </div></div>
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_6" class="u_row v-row-padding" style="background-color: #f0f0f0; padding: 0px;">
+    <div class="container" style="max-width: 1200px;margin: 0 auto;background-color: #f0f0f0;">
+      <div class="u-row" style="align-items: center;">
+        
+<div id="u_column_11" class="u-col u-col-57p17 u_column" style="display:flex;align-items:center;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:30px 0px 30px 10px;">
+    
+  <div id="u_content_heading_13" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <h2 class="v-font-size" style="margin: 0px; color: #f35936; line-height: 140%; text-align: left; word-wrap: break-word; font-size: 22px; font-weight: 700;"><em>GENERATE MORE REVENUE FOR YOUR SPORTSBOOK BUSINESS TODAY</em></h2>
+
+  </div>
+
+  <div id="u_content_text_9" class="u_content_text" style="overflow-wrap: break-word;padding: 0px 10px 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; color: #000000; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">You can raise your per head Sportsbook Business to the Highest Level.<br />Take a tour to find out how PayPerHead can make you a pack leader.</p>
+  </div>
+
+  </div>
+
+  <div id="u_content_button_4" class="u_content_button" style="overflow-wrap: break-word;padding: 0px 10px;">
+    
+<div style="text-align: left;">
+  <a href="https://payperhead.com/tour/" target="_blank" class="v-font-size" style="color:#FFFFFF;background-color:#f35936;border-radius: 4px;line-height:120%;display:inline-block;text-decoration:none;text-align:center;padding:10px 20px;width:auto;max-width:100%;word-wrap:break-word;font-size: 16px;font-weight: 700; ">
+    <span style="line-height: 19.2px;">LEARN MORE</span>
+  </a>
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_12" class="u-col u-col-42p83 u_column" style="display:flex;align-items:center;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:30px 10px 30px 0px;">
+    
+  <div id="u_content_image_5" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://a.mailmunch.co/user_data/landing_pages/1689189385760-player-jump-removebg-preview.png" style="width: 100%;max-width: 100%;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_9" class="u_row v-row-padding" style="background-color: #022343; padding: 0px;">
+    <div class="container" style="max-width: 1200px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_15" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:30px 0px;">
+    
+  <div id="u_content_heading_18" class="u_content_heading" style="overflow-wrap: break-word;padding: 10px 10px 30px;">
+    
+  <h2 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 700;">Join PayPerHead now and get ClubPoker!</h2>
+
+  </div>
+
+  <div id="u_content_mailmunch#form_2" class="u_content_mailmunch#form" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div id="u_content_mailmunch#form_2" class="u_content_mailmunch#form missing-item">Missing</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_12" class="u_row v-row-padding" style="background-color: #022343; padding: 30px 0px;">
+    <div class="container" style="max-width: 1200px;margin: 0 auto;">
+      <div class="u-row">
+        
+<div id="u_column_18" class="u-col u-col-33p33 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_15" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://a.mailmunch.co/user_data/landing_pages/1689194566952-top-moba.jpg" style="width: 100%;max-width: 502px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_19" class="u-col u-col-33p33 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_16" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://a.mailmunch.co/user_data/landing_pages/1689194590902-sports-simulators.jpg" style="width: 100%;max-width: 502px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+<div id="u_column_20" class="u-col u-col-33p33 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:0px;">
+    
+  <div id="u_content_image_14" class="u_content_image" style="overflow-wrap: break-word;padding: 10px;">
+    
+<div style="position:relative;line-height:0px;text-align:center">
+  
+  <img alt="" class="v-src-width v-src-max-width" src="https://a.mailmunch.co/user_data/landing_pages/1689194595581-first-person-shooters.jpg" style="width: 100%;max-width: 502px;" title=""/>
+  
+</div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="u_row_7" class="u_row v-row-padding" style="background-color: #022343; padding: 0px;">
+    <div class="container" style="max-width: 1200px;margin: 0 auto;background-color: #022343;">
+      <div class="u-row">
+        
+<div id="u_column_13" class="u-col u-col-100 u_column" style="display:flex;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;">
+  <div class="v-col-padding" style="width: 100%;padding:30px 0px;">
+    
+  <div id="u_content_social_1" class="u_content_social" style="overflow-wrap: break-word;padding: 10px;">
+    <div style="text-align:center;line-height:0px"><a href="https://www.facebook.com/PPHSoftware" target="_blank" style="display:inline-block;width:32px;height:32px;margin-right:15px"><img src="https://cdn.tools.unlayer.com/social/icons/circle-white/facebook.png" width="32" height="32"/></a><a href="https://twitter.com/GetPayPerHead" target="_blank" style="display:inline-block;width:32px;height:32px;margin-right:15px"><img src="https://cdn.tools.unlayer.com/social/icons/circle-white/twitter.png" width="32" height="32"/></a><a href="https://www.instagram.com/getpayperhead/" target="_blank" style="display:inline-block;width:32px;height:32px;margin-right:15px"><img src="https://cdn.tools.unlayer.com/social/icons/circle-white/instagram.png" width="32" height="32"/></a><a href="https://www.youtube.com/channel/UCWzqOzMZphiQG79ftyalwVA" target="_blank" style="display:inline-block;width:32px;height:32px;margin-right:0px"><img src="https://cdn.tools.unlayer.com/social/icons/circle-white/youtube.png" width="32" height="32"/></a></div>
+  </div>
+
+  <div id="u_content_divider_1" class="u_content_divider" style="overflow-wrap: break-word;padding: 20px 10px;">
+    <div style="text-align:center;line-height:0"><div style="border-top-width:1px;border-top-style:solid;border-top-color:#ffffff;width:94%;display:inline-block;line-height:1px;height:0px;vertical-align:middle"> </div></div>
+  </div>
+
+  <div id="u_content_text_6" class="u_content_text" style="overflow-wrap: break-word;padding: 10px;">
+    
+  <div class="v-font-size" style="font-size: 14px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="line-height: 140%;">Copyright © 2023 PAYPERHEAD. All Rights Reserved.</p>
+  </div>
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  </body>
+</html>
